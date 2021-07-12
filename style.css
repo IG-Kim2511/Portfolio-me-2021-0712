@@ -228,6 +228,21 @@ p {
   transform: scale(1.1);
 }
 
+.avatar_change{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
 /* Section */
 .section {
   margin: auto;

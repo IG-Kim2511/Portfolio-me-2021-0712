@@ -66,14 +66,22 @@ navbarToggleBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
 });
 
-// js 94  make home slowly fade to transparent as the window scrolls down
+// js 94 scrolls down, and home avatar_change
 
 const home = document.querySelector(".home__container");
 const homeAvatar = document.querySelector(".home__avatar");
-const homeHeight = homeAvatar.getBoundingClientRect().height;
+const homeHeight = homeAvatar.getBoundingClientRect().top;
 
 document.addEventListener("scroll", () => {
-  homeAvatar.style.opacity = 1 - window.scrollY / homeHeight;
+
+  // homeAvatar.style.opacity = 1 - window.scrollY / homeHeight;
+  console.log(home.getBoundingClientRect().top) 
+
+  if (home.getBoundingClientRect().top < 70) {    
+    homeAvatar.classList.add('avatar_change');
+  }else{
+    homeAvatar.classList.remove('avatar_change');
+  }
 });
 
 
@@ -111,6 +119,7 @@ const workBtnContainer = document.querySelector(".work__categories");
 const projectContainer = document.querySelector(".work__projects");
 const projects = document.querySelectorAll(".project");
 
+
 workBtnContainer.addEventListener("click", (e) => {
   // 68-1
   const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
@@ -120,11 +129,11 @@ workBtnContainer.addEventListener("click", (e) => {
   }
 
   //  68-2
-  projects.forEach((project) => {
-    if (filter === "*" || filter === project.dataset.type) {
-      project.classList.remove("invisible");
+  projects.forEach((a_project) => {
+    if (filter === "*" || filter === a_project.dataset.type) {
+      a_project.classList.remove("invisible");
     } else {
-      project.classList.add("invisible");
+      a_project.classList.add("invisible");
     }
   });
 
