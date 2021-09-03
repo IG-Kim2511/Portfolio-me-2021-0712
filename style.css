@@ -488,7 +488,13 @@ padding-top: 0;
 .contact__email {
   padding-top: 1rem;
   font-size: 1.5rem;
+  color: var(--naver-color);
 }
+
+.contact__email :hover{
+  
+}
+
 .contact__links {
   font-size: var(--font-large);
   margin: 24px 0;
