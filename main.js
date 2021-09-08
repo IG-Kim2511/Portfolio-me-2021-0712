@@ -16,7 +16,7 @@ document.addEventListener("scroll", () => {
   }
 });
 
-// js 60. handle scrolling when tapping on the navbar
+// js 60. handle scrolling when clicking on the navbar
 
 const navbarMenu = document.querySelector(".navbar__menu");
 
