@@ -66,7 +66,7 @@ navbarToggleBtn.addEventListener("click", () => {
   navbarMenu.classList.toggle("open");
 });
 
-// js 94 scrolls down, and home avatar_change
+// js 94 scrolls down, and putting CSS effect on home__avatar
 
 const home = document.querySelector(".home__container");
 const homeAvatar = document.querySelector(".home__avatar");
