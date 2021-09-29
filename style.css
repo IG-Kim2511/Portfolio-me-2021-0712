@@ -441,12 +441,17 @@ padding-top: 0;
   transform: translateY(0px);
 }
 
-.project__description .h3,
-.project__description p,
-.project__description .span {
+.project__description p{
   color: var(--color-white);
   font-size: 1rem;
 }
+.project__description .h3,
+.project__description .span {
+  color: var(--naver-color);
+  font-size: 1rem;
+}
+
+
 .project__description .h3:hover,
 .project__description .span:hover {
   color: var(--naver-color);
