@@ -341,7 +341,14 @@ padding-top: 0;
   transition: all var(--animation_duration300ms);
 }
 
-.language ,.skills{
+.skills{
+  margin-top: 3rem;
+}
+
+.language{  
+  max-width: 1200px;  
+
+  margin: auto;
   margin-top: 3rem;
 }
 
