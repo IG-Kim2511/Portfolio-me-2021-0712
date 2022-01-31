@@ -185,7 +185,7 @@ workBtnContainer.addEventListener("click", (e) => {
 
 
 
-// 🍀js 100 email
+// js100, email
 
 function sendMail(){
   let tempParams = {
@@ -196,6 +196,23 @@ function sendMail(){
 
   emailjs.send('igkim-gmail','template_gbp2qug',tempParams).then(function (res){
     console.log('success',res.status);
+
     
   })
 }
+
+
+// 
+
+const sendMailBtn = document.querySelector('.sendMail-btn');
+const container = document.querySelector('.notification_ballon .container');
+
+
+sendMailBtn.addEventListener('click',()=>{
+
+    container.setAttribute('style', 'display: flex;');    
+    
+    setTimeout(function(){
+        container.setAttribute('style', 'display: none;');              
+    }, 2000);    
+});
