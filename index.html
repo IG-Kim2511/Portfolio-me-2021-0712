@@ -20,6 +20,7 @@
     
     <!-- css, JS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-email.css">
 
     <!-- js 100. email CDN-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -640,7 +641,8 @@
  
  
     <!-- 🍉email.js -->
-    <div class="contact-form"> 
+    <div class="contact-email"> 
+      <div class="form">
         <div class="grid-a ">          
           <input type="text" id="fromName" placeholder="Enter your name">     
         </div>
@@ -653,20 +655,23 @@
           <textarea name="" id="msg" cols="50" rows="5" placeholder="Enter your message"></textarea>  
         </div>
 
+        <!-- 🍉notification_ballon -->
+
+          <div class="notification_ballon">
+            <div class="container">
+                <div class="rectangle">
+                    <div class="notification-text">
+                      email sent
+                    </div>
+                </div>
+            </div>
+         </div>
+        
         <button onclick="sendMail()" class="my_github sendMail-btn">Send Email</button>
+        </div>
       </div>
 
-    <!-- 🍉notification_ballon -->
 
-    <div class="notification_ballon">
-      <div class="container">
-          <div class="rectangle">
-              <div class="notification-text">
-                 email sent
-              </div>
-          </div>
-      </div>
-   </div>
 
   <!-- contact link -->
     <div class="contact__links">

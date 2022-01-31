@@ -64,6 +64,10 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   cursor: default;
+
+  max-width: 1200px;
+  margin: auto;
+  
 }
 
 a {
@@ -282,8 +286,8 @@ padding-top: 0;
 }
 
 .section__container {
-  max-width: 1200px;
-  margin: auto;
+  /* max-width: 1200px;
+  margin: auto; */
 }
 
 /* About */

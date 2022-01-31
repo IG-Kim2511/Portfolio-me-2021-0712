@@ -1,0 +1,38 @@
+    
+.contact-email{
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    
+    background: #eee;
+ }
+ 
+ .contact-email .form{
+    padding:20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    background: #fff;
+    text-align: center;
+    width: 500px;
+ }
+ 
+
+ .contact-email input,
+ .contact-email select{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 17px;
+    margin:8px 0;
+    background: #eee;
+    border-radius: 5px;
+ }
+ 
+ .contact-email form select option{
+    background: #fff;
+ }
+
+
