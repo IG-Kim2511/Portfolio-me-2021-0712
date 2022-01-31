@@ -89,6 +89,24 @@ button {
   outline: none;
 }
 
+.mybtn{
+  border: 2px solid var(--color-black);
+  border-radius: var(--size-border-radius4px);
+  color: var(black);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold600);
+  margin: 12px;
+  padding: 8px 12px;
+  transition: all var(--animation_duration300ms) ease-in-out;
+
+}
+
+.mybtn:hover{
+  background-color: var(--naver-color);  
+  transform: scale(1.1);
+}
+
+
 /* typography */
 
 h1 {

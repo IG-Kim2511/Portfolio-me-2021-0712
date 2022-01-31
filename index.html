@@ -24,7 +24,7 @@
     <!-- js 100. email CDN-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-    <!-- js 100. email userID-->
+    <!-- 🍖js 100. email userID-->
     <script type="text/javascript">
     (function() {
     emailjs.init("user_kc908ztFICcO8xzBoYSrW");
@@ -613,16 +613,24 @@
  
     <a href="mailto:iikim2511@gmail.com" class="contact__email">Email : iikim2511@gmail.com</a>
  
-        <!--  <form action="mailto:iikim2511@gmail.com" method="GET" enctype="text/plain"  >
-       <input type="submit" name="submit" value="iikim2511@gmail.com"class="contact__email2">
-    </form>  -->   
-   
-    <div>
+    <!-- 🍖js 100. email -->
+    <form>
       <input type="text" id="toName" placeholder="Enter to name">
-      <input type="text" id="fromName" placeholder="Enter from name">
+      <input type="text" id="fromName" placeholder="Enter from name">        
       <input type="text" id="msg" placeholder="Enter your message">
-      <button onclick="sendMail()">Send Email</button>
-    </div>
+      <!-- <div class="grid-a gPad">
+        <div>iikim name</div>
+      </div>
+      <div class="grid-b gPad">
+          <div>Your name</div>                
+      </div>
+    
+      <div class="grid-b gPad">
+          <div>Message</div>            
+      </div>
+     -->
+      <button onclick="sendMail()" class="mybtn">Send Email</button>
+    </form>
 
     <div class="contact__links">
         <a href="https://github.com/IG-Kim2511" target="_blank"><i class="fab fa-github"></i></a>
@@ -638,11 +646,6 @@
 </section>
 
 
-<!-- email -->
-<script>
-
-
-</script>
 
 
     

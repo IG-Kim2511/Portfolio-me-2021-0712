@@ -185,7 +185,7 @@ workBtnContainer.addEventListener("click", (e) => {
 
 
 
-// js 100 email
+// 🍀js 100 email
 
 function sendMail(){
   let tempParams = {
