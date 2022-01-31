@@ -220,7 +220,7 @@ sendMailBtn.addEventListener('click',()=>{
 // js120 hide. small project
 
 const reactElm = document.querySelector('.react');
-const hideElem = document.querySelector('.hide');
+const hideElemAll = document.querySelectorAll('.hide');
 
 let n = 0;    /* 🍉js 50 */
 
@@ -228,7 +228,9 @@ reactElm.addEventListener("click", function () {
   n++;    
  
   if (n > 2) {
-    hideElem.classList.remove('hide');      
+    for (let i = 0; i < hideElemAll.length; i++) {
+      hideElemAll[i].classList.remove('hide');           
+    }
 }
 });
 
