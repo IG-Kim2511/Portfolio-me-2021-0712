@@ -185,7 +185,7 @@ workBtnContainer.addEventListener("click", (e) => {
 
 
 
-// js 100 email
+// js100, email
 
 function sendMail(){
   let tempParams = {
@@ -196,6 +196,7 @@ function sendMail(){
 
   emailjs.send('igkim-gmail','template_gbp2qug',tempParams).then(function (res){
     console.log('success',res.status);
+
     
   })
 }
