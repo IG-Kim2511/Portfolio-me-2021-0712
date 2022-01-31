@@ -182,3 +182,20 @@ workBtnContainer.addEventListener("click", (e) => {
     projectContainer.classList.remove("anim-out");
   }, 300);
 });
+
+
+
+// js 100 email
+
+function sendMail(){
+  let tempParams = {
+    from_name : document.querySelector("#fromName").value,
+    to_name : document.querySelector("#toName").value,
+    message : document.querySelector("#msg").value,
+  }
+
+  emailjs.send('igkim-gmail','template_gbp2qug',tempParams).then(function (res){
+    console.log('success',res.status);
+    
+  })
+}
