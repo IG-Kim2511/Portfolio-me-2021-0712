@@ -216,3 +216,37 @@ sendMailBtn.addEventListener('click',()=>{
         container.setAttribute('style', 'display: none;');              
     }, 2000);    
 });
+
+// js120 hide. small project
+
+const reactElm = document.querySelector('.react');
+const hideElem = document.querySelector('.hide');
+
+let n = 0;    /* 🍉js 50 */
+
+reactElm.addEventListener("click", function () {
+  n++;    
+ 
+  if (n > 2) {
+    hideElem.classList.remove('hide');      
+}
+});
+
+/* 
+let timeId;
+const btn = document.querySelector(".btn");
+const box = document.querySelector(".box");
+const number = document.querySelector(".number");
+
+timeId = setInterval(pokeHandler, 100); 
+
+function pokeHandler() {
+   let div = document.createElement('div');
+    div.className = "poke";
+    div.innerHTML = `
+        <img src="./img/Pokecoin.png" alt="">            
+    `;          
+    box.append(div);
+}   
+
+ */
