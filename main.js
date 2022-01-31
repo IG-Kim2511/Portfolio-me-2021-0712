@@ -195,9 +195,7 @@ function sendMail(){
   }
 
   emailjs.send('igkim-gmail','template_gbp2qug',tempParams).then(function (res){
-    console.log('success',res.status);
-
-    
+    console.log('success',res.status);    
   })
 }
 
