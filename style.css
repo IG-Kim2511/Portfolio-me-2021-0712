@@ -110,9 +110,7 @@ button {
   transform: scale(1.1);
 }
 
-.hide{
-  display: none;
-}
+
 
 /* typography */
 
@@ -678,6 +676,24 @@ padding-top: 0;
   opacity: 1;
   pointer-events: auto;
 }
+
+
+
+/* 🍀Bottom (under the main style coding)- Utility class */
+
+.hide{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*for below 1200px screen width  */
 @media screen and (max-width: 1200px) {
   .major__icon,
