@@ -212,10 +212,10 @@ sendMailBtn.addEventListener('click',()=>{
     
     setTimeout(function(){
         container.setAttribute('style', 'display: none;');              
-    }, 2000);    
+    }, 2000);
 });
 
-// js120 hide. small project
+// js120 hide. clone project
 
 const reactElm = document.querySelector('.react');
 const hideElemAll = document.querySelectorAll('.hide');
