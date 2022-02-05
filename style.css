@@ -150,7 +150,7 @@ p {
 
   width: 100%;
   max-width: 75rem;
-  
+
   background-color: transparent;
   align-items: center;
 
@@ -382,7 +382,11 @@ padding-top: 0;
   margin-top: 3rem;
 }
 
+/* Experience */
 
+.experience .experience-text-parents{
+  padding: 1rem;
+}
 
 /* work */
 
