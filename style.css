@@ -149,8 +149,12 @@ p {
   justify-content: space-between;
 
   width: 100%;
+  max-width: 75rem;
+  
   background-color: transparent;
   align-items: center;
+
+  align-content: center;
 
   color: var(--color-black);
   padding: 16px;
@@ -158,15 +162,18 @@ p {
   transition: all var(--animation_duration300ms) ease-in-out;
 
   z-index: 1;
+
 }
 /* js 58 */
 #navbar.navbar--dark {
   background-color: var(--naver-color);
   padding: 16px;
+
 }
 
 .navbar__menu {
   display: flex;
+  
 }
 .navbar__menu__item {
   padding: 8px 12px;
