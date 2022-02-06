@@ -383,6 +383,9 @@ padding-top: 0;
 }
 
 /* Experience */
+#experience {
+  padding-top: 3rem;
+}
 
 .experience .experience-text-parents{
   padding: 1rem;
