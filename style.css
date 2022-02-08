@@ -557,6 +557,13 @@ padding-top: 0;
   width: calc(var(--max-width) / 2);
 }
 
+
+#contact .form input,
+#contact .form textarea{
+  width: 30rem;
+}
+
+
 .form-children{
   width: 90%;
   margin: auto;
@@ -830,5 +837,10 @@ padding-top: 0;
   
   #contact .form{
     width: 300px;
+  }
+
+  #contact .form input,
+  #contact .form textarea{
+    width: 250px;
   }
 }
