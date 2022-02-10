@@ -834,7 +834,25 @@ padding-top: 0;
     flex-direction: column;
 
   }
-  
+
+
+/*    
+  .major__icon,
+  .major__icon-j {  
+    width: 20px;
+    height: 20px;
+    line-height: 20px;  
+    font-size: 10px;
+    
+  margin-bottom: 1px;
+  }
+
+  .major__icon img{
+    width: 80%;
+  }
+ */
+
+
   #contact .form{
     width: 300px;
   }
@@ -843,4 +861,7 @@ padding-top: 0;
   #contact .form textarea{
     width: 250px;
   }
+
+
+  
 }
