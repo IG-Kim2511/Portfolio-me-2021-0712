@@ -294,11 +294,22 @@ padding-top: 0;
 }
 
 .section__container {
-  /* max-width: 1200px;
-  margin: auto; */
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* About */
+
+#about .skillTool-container{
+  display: flex;
+  /* flex: 1; */
+}
+
+#about .skill-parents,
+#about .tools{
+  width: calc(var(--max-width) / 2);  
+  text-align: center;
+}
 
 /* 
 #about .about__majors {
@@ -390,7 +401,7 @@ padding-top: 0;
  */
 
 
- 
+
 /* Experience */
 #experience {
   padding-top: 3rem;
