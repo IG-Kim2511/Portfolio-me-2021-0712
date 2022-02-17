@@ -288,29 +288,31 @@ function renderWorkDetail_js() {
   })  
 }
 
+
+
 renderWorkDetail_react();
 function renderWorkDetail_react() {
-  Data_js.forEach((p_Data_js)=>{
+  Data_react.forEach((p_Data_react)=>{
     workDetailProjects.innerHTML+=`
       <section class="projects-container">                
       <div class="img-container">
-        <img src="${p_Data_js.imgSrc}" alt="">
+        <img src="${p_Data_react.imgSrc}" alt="">
       </div>
 
       <div class="title-container">
-        <h2 class="title">${p_Data_js.title}</h2>
+        <h2 class="title">${p_Data_react.title}</h2>
 
-        <p class="skills">skill: <i class="fa-brands ${p_Data_js.skills}"></i> 
+        <p class="skills">skill: <i class="fa-brands ${p_Data_react.skills}"></i> 
         </p>
 
-        <p class="explain">${p_Data_js.explain}</p>
+        <p class="explain">${p_Data_react.explain}</p>
 
         <div>
-          <a href="${p_Data_js.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+          <a href="${p_Data_react.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
 
           <br>
                 
-          <a href="${p_Data_js.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+          <a href="${p_Data_react.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
       </div>        
       </div>   
       </section>   
