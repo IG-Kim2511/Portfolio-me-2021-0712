@@ -251,3 +251,32 @@ function pokeHandler() {
 }   
 
  */
+
+
+// 🍀js0217. work detail
+
+const workDetailProjects = document.querySelector('.workDetail__projects');
+
+workDetailProjects.innerHTML=`
+<section class="projects-container">                
+<div class="img-container">
+  <img src="./img/projects/me_2021-0411_typingGame.jpg" alt="">
+</div>
+
+<div class="title-container">
+  <h2 class="title">title</h2>
+
+  <p class="skills">skill: JS</p>
+
+  <p class="explain">fetch data and play typing game. Lorem ipsum dolor sit amet consectetur adipisicing  </p>
+
+  <div>
+    <a href="https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+    <br>
+          
+    <a href="https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+ </div>        
+</div>   
+</section>   
+`;
