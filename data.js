@@ -1,7 +1,7 @@
 const Data_js = [
     {
         id: 0,
-        title: "ecommerce_shoes_slideshow",
+        title: "Ecommerce shoes",
         skills: "fa-js",
         explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
         imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
@@ -28,7 +28,7 @@ const Data_js = [
 const Data_react = [
     {
       id: 0,
-      title: "restaurant page",
+      title: "Restaurant web",
       skills: "fa-react",
       explain: "useRef, taking data with Map Loop",
       imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
