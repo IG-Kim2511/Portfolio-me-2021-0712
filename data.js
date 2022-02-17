@@ -28,7 +28,7 @@ const Data_react = [
     {
       id: 0,
       title: "restaurant page",
-      explain: "------------------",
+      explain: "useRef, taking data with Map Loop",
       imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
       github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
       visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",
