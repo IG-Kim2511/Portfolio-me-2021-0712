@@ -51,7 +51,7 @@ const Data_sheet_clone = [
       title: "clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
 
       skills: ["fa-js","fa-sass"],
-      explain: "google map share, slideshow framework-slide, SASS",
+      explain: "google map share, slideshow framework-swiper, SASS",
       imgSrc: "./img/projects/clone_2022-0218-Ecommerce_Multipage-JS.jpg",
       github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
       visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",
