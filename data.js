@@ -47,15 +47,14 @@ const Data_sheet_small = []
 const Data_sheet_clone = [
     {
       id: 700,
+      type:"clone",
       title: "clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
 
-      // <i class="fa-brands fa-css3"></i>
-      // <i class="fa-brands fa-sass"></i>
       skills: ["fa-js","fa-sass"],
-      explain: "google map share, slideshow framework-slide",
-      imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
-      github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
-      visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",
+      explain: "google map share, slideshow framework-slide, SASS",
+      imgSrc: "./img/projects/clone_2022-0218-Ecommerce_Multipage-JS.jpg",
+      github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
+      visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",
     
       //🍖js13. numberOfUnits:1
     },  
