@@ -341,10 +341,10 @@ const workSheets = document.getElementById("workSheets");
 
 const JavascriptWebBtn = document.querySelector('.Javascript_web');
 
-JavascriptWebBtn.addEventListener('click',workSheetsRender_jsweb);
+JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
 
 // workSheetsRender();
-function workSheetsRender_jsweb() {
+function workSheetsRender_jsWeb() {
   workSheetsProjects.innerHTML="";
 
   workSheets.scrollIntoView();
