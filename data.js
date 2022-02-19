@@ -2,7 +2,7 @@ const Data_js = [
     {
         id: 0,
         title: "Ecommerce shoes",
-        skills: "fa-js",
+        skills: ["fa-js","fa-css3"],
         explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
         imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
@@ -13,7 +13,7 @@ const Data_js = [
     {
         id: 1,
         title: "Typing Game",
-        skills: "fa-js",
+        skills: ["fa-js","fa-css3"],
         explain: "fetch data and play typing game",
         imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
         github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
@@ -27,9 +27,9 @@ const Data_js = [
 
 const Data_react = [
     {
-      id: 0,
+      id: 100,
       title: "Restaurant web",
-      skills: "fa-react",
+      skills: ["fa-react","fa-css3"],
       explain: "useRef, taking data with Map Loop",
       imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
       github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
@@ -39,4 +39,25 @@ const Data_react = [
     },  
   ];
   
+const Data_sheet_js_web = []
+const Data_sheet_js_app = []
+const Data_sheet_react = []
+const Data_sheet_small = []
+
+const Data_sheet_clone = [
+    {
+      id: 700,
+      title: "clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
+
+      // <i class="fa-brands fa-css3"></i>
+      // <i class="fa-brands fa-sass"></i>
+      skills: ["fa-js","fa-sass"],
+      explain: "google map share, slideshow framework-slide",
+      imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
+      github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
+      visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",
+    
+      //🍖js13. numberOfUnits:1
+    },  
+];
 

@@ -270,7 +270,9 @@ function renderWorkDetail_js() {
         <div class="title-container">
           <h2 class="title">${p_Data_js.title}</h2>
 
-          <p class="skills">skill: <i class="fa-brands ${p_Data_js.skills}"></i> 
+          <p class="skills">skill: <i class="fa-brands ${p_Data_js.skills[0]}"></i> 
+          <i class="fa-brands ${p_Data_js.skills[1]}"></i> 
+          <i class="fa-brands ${p_Data_js.skills[2]}"></i> 
           </p>
 
           <p class="explain">explain: ${p_Data_js.explain}</p>
@@ -302,7 +304,9 @@ function renderWorkDetail_react() {
       <div class="title-container">
         <h2 class="title">${p_Data_react.title}</h2>
 
-        <p class="skills">skill: <i class="fa-brands ${p_Data_react.skills}"></i> 
+        <p class="skills">skill: <i class="fa-brands ${p_Data_react.skills[0]}"></i>
+          <i class="fa-brands ${p_Data_react.skills[1]}"></i> 
+          <i class="fa-brands ${p_Data_react.skills[2]}"></i> 
         </p>
 
         <p class="explain">explain: ${p_Data_react.explain}</p>
