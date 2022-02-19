@@ -257,7 +257,6 @@ function pokeHandler() {
 
 const workDetailProjects = document.querySelector('.workDetail__projects');
 
-
 renderWorkDetail_js();
 function renderWorkDetail_js() {
   Data_js.forEach((p_Data_js)=>{
@@ -291,7 +290,6 @@ function renderWorkDetail_js() {
 }
 
 
-
 renderWorkDetail_react();
 function renderWorkDetail_react() {
   Data_react.forEach((p_Data_react)=>{
@@ -323,3 +321,45 @@ function renderWorkDetail_react() {
     `;
   })  
 }
+
+
+
+/*  */
+
+const workSheets = document.querySelector('.work-sheets');
+
+document.querySelector('.test').addEventListener('click',renderWorkSheets);
+
+function renderWorkSheets() {
+
+  workSheets.innerHTML='';
+  
+  Data_sheet_clone.forEach((p_Data_sheet_clone)=>{
+    workSheets.innerHTML+=`
+      <div class="project"  data-type="${p_Data_sheet_clone.type}">
+        <div class="img-container">
+          <img src="${p_Data_sheet_clone.imgSrc}" alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${p_Data_sheet_clone.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_clone.skills}"></i> 
+          </p>
+
+          <p class="explain">explain: ${p_Data_sheet_clone.explain}</p>
+
+          <div>
+            <a href="${p_Data_sheet_clone.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${p_Data_sheet_clone.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </div>     
+    `;
+  })  
+}
+
+

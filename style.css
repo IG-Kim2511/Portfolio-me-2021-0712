@@ -447,6 +447,16 @@ padding-top: 0;
   margin: auto;
 }
 
+/* work-sheets-container*/
+
+#work-sheets-container .img-container{
+  width: 200rem;
+}
+#work-sheets-container .img-container img{
+  width: 100%;
+}
+
+
 
 
 /* work */

@@ -211,6 +211,51 @@
       </div>
     </section>
 
+    
+<!--    
+  
+  <section id="workDetail" class="section">
+      <div class="secton__container">
+        <h1>My Work Detail</h1>
+        <div class="workDetail__projects">   
+ -->
+
+ <section class="section" id="work-sheets-container">
+  <div class="btn-container">
+   <button class="mybtn test">test</button>
+  </div>
+
+      <div class="work-sheets">
+
+        <div class="project"  data-type="${p_Data_sheet_clone.type}">
+          <div class="img-container">
+            <img src="./img/projects/clone_2022-0218-Ecommerce_Multipage-JS.jpg" alt="">
+          </div>
+  
+          <div class="title-container">
+            <h2 class="title">${p_Data_sheet_clone.title}</h2>
+  
+            <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_clone.skills}"></i> 
+            </p>
+  
+            <p class="explain">explain: ${p_Data_sheet_clone.explain}</p>
+  
+              <div>
+                <a href="${p_Data_sheet_clone.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+    
+                <br>
+                      
+                <a href="${p_Data_sheet_clone.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+            </div>        
+          </div>   
+        </div> 
+                
+      </div>
+
+
+</section>
+
+
 
     <!-- 🍀 work / projects  Sheets-->
     <!-- js 72 -->
@@ -228,6 +273,7 @@
                 <button class="category__btn" data-filter="js">JavaScript App<span class="category__count">5</span></button>
                 <button class="category__btn react" data-filter="react">React<span class="category__count">2</span></button>
                 <button class="category__btn" data-filter="small">small project<span class="category__count"></span></button>
+
                 <button class="category__btn hide" data-filter="clone">clone to practice design<span class="category__count"></span></button>
               
             </div>
@@ -691,9 +737,9 @@
               </div>        
 
 
-              <div>
+              <!-- <div class="work-sheets"> -->
 
-                <div class="project hide"  data-type="clone">
+               <!--  <div class="project hide"  data-type="clone">
                   <div class="img-container">
                     <img src="${p_Data_js.imgSrc}" alt="">
                   </div>
@@ -714,15 +760,14 @@
                       <a href="${p_Data_js.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
                   </div>        
                   </div>   
-                </div>     
-            </div>
+                </div>      -->
+            <!-- </div> -->
 
               
              
           </div>
         </div>
     </section>
-
 
     
     <!-- 🍀language -->
