@@ -41,30 +41,38 @@ const Data_sheet_js_web = [
   {
     id: 200,
     type:"js-web",
-    title: "ecommerce_shoes_slideshow",
+    title: "3D-Wall-scrolling",
 
     skills: ["fa-js","fa-css3"],
-    explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
-    imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
-    visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
-  
-    
+    explain: "offsetHeight, innerHeight,pageYOffset, e.target, e.clientX, resize...etc",
+    imgSrc: "./img/projects/me_2021-0813_3D-Wall-scrolling.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021_0813-3d-Wall-js",
+    visit:"https://ig-kim2511.github.io/me_2021_0813-3d-Wall-js/",  
   },  
   {
     id: 201,
     type:"js-web",
-    title: "Clothes Shopping Cart",
+    title: "portfolio",
 
     skills: ["fa-js","fa-css3"],
-    explain: "adding product to cart, calculate price, localstorage, rendering products from data, selecting featured images",
-    imgSrc: "./img/projects/me_2021-1109-cloth-Shopping_Cart.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-1109-cloth-Shopping_Cart-ig-js",
-    visit:"https://ig-kim2511.github.io/me_2021-1109-cloth-Shopping_Cart-ig-js/",
-  
+    explain: "rendering products from data",
+    imgSrc: "./img/projects/me-portfolio-javascript.jpg",
+    github: "https://github.com/IG-Kim2511/Portfolio-me-2021-0712",
+    visit:"https://ig-kim2511.github.io/Portfolio-me-2021-0712/",  
   },  
   {
     id: 202,
+    type:"js-web",
+    title: "Pokemon shopping cart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data",
+    imgSrc: "./img/projects/me_2021-1101-Pokemon_Shopping_Cart-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1101-Pokemon_Shopping_Cart-js",
+    visit:"https://ig-kim2511.github.io/me_2021-1101-Pokemon_Shopping_Cart-js/",  
+  },  
+  {
+    id: 203,
     type:"js-web",
     title: "Costco_self_checkout",
 
@@ -74,7 +82,32 @@ const Data_sheet_js_web = [
     github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
     visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
   
+  }, 
+  {
+    id: 204,
+    type:"js-web",
+    title: "Clothes Shopping Cart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, selecting featured images",
+    imgSrc: "./img/projects/me_2021-1109-cloth-Shopping_Cart.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1109-cloth-Shopping_Cart-ig-js",
+    visit:"https://ig-kim2511.github.io/me_2021-1109-cloth-Shopping_Cart-ig-js/",
+  
+  },
+  {
+    id: 205,
+    type:"js-web",
+    title: "ecommerce_shoes_slideshow",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
+    imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
+    visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
   },  
+
+
 
 ];
 const Data_sheet_js_app = [];
