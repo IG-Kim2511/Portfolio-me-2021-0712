@@ -176,7 +176,25 @@ const Data_sheet_js_app = [
 ];
 
 const Data_sheet_react = [
-  
+  {
+    id: 100,
+    title: "portfolio",    
+    skills: ["fa-react","fa-sass"],
+    explain: "useRef, taking data with Map Loop",
+    imgSrc: "./img/projects/me-portfolio_with_React,SCSS.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
+    visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
+  },
+  {
+    id: 101,
+    title: "Restaurant web",
+    skills: ["fa-react","fa-css3"],
+    explain: "useRef, taking data with Map Loop",
+    imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
+    visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",  
+  },
+
 ];
 const Data_sheet_small = [];
 

@@ -349,29 +349,29 @@ function workSheetsRender_jsWeb() {
 
   workSheets.scrollIntoView();
 
-  Data_sheet_js_web.reverse().forEach((p_Data_sheet_js_web)=>{
+  Data_sheet_js_web.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
-          <img src='${p_Data_sheet_js_web.imgSrc}' alt="">
+          <img src='${data.imgSrc}' alt="">
         </div>
 
         <div class="title-container">
-          <h2 class="title">${p_Data_sheet_js_web.title}</h2>
+          <h2 class="title">${data.title}</h2>
 
-          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_js_web.skills[0]}"></i>
-            <i class="fa-brands ${p_Data_sheet_js_web.skills[1]}"></i> 
-            <i class="fa-brands ${p_Data_sheet_js_web.skills[2]}"></i> 
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
          </p>
 
-          <p class="explain">explain: ${p_Data_sheet_js_web.explain}</p>
+          <p class="explain">explain: ${data.explain}</p>
 
           <div>
-            <a href="${p_Data_sheet_js_web.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
 
             <br>
                   
-            <a href="${p_Data_sheet_js_web.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
         </div>        
         </div>   
       </section>    
@@ -392,35 +392,81 @@ function workSheetsRender_jsApp() {
 
   workSheets.scrollIntoView();
 
-  Data_sheet_js_app.reverse().forEach((p_Data_sheet_js_app)=>{
+  Data_sheet_js_app.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
-          <img src='${p_Data_sheet_js_app.imgSrc}' alt="">
+          <img src='${data.imgSrc}' alt="">
         </div>
 
         <div class="title-container">
-          <h2 class="title">${p_Data_sheet_js_app.title}</h2>
+          <h2 class="title">${data.title}</h2>
 
-          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_js_app.skills[0]}"></i>
-            <i class="fa-brands ${p_Data_sheet_js_app.skills[1]}"></i> 
-            <i class="fa-brands ${p_Data_sheet_js_app.skills[2]}"></i> 
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
          </p>
 
-          <p class="explain">explain: ${p_Data_sheet_js_app.explain}</p>
+          <p class="explain">explain: ${data.explain}</p>
 
           <div>
-            <a href="${p_Data_sheet_js_app.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
 
             <br>
                   
-            <a href="${p_Data_sheet_js_app.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
         </div>        
         </div>   
       </section>    
     `;
   })  
 }
+
+
+//🍉js0219. work sheets - react
+
+const ReactWebBtn = document.querySelector('.ReactWeb');
+
+ReactWebBtn.addEventListener('click',workSheetsRender_reactWeb);
+
+// workSheetsRender();
+function workSheetsRender_reactWeb() {
+  workSheetsProjects.innerHTML="";
+
+  workSheets.scrollIntoView();
+
+  Data_sheet_react.reverse().forEach((data)=>{
+    workSheetsProjects.innerHTML+=`
+      <section class="projects-container">                
+        <div class="img-container">
+          <img src='${data.imgSrc}' alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${data.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
+         </p>
+
+          <p class="explain">explain: ${data.explain}</p>
+
+          <div>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </section>    
+    `;
+  })  
+}
+
+
+
 
 
 
@@ -439,29 +485,29 @@ function workSheetsRender_clone() {
   workSheets.scrollIntoView();
 
 
-  Data_sheet_clone.reverse().forEach((p_Data_sheet_clone)=>{
+  Data_sheet_clone.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
-          <img src='${p_Data_sheet_clone.imgSrc}' alt="">
+          <img src='${data.imgSrc}' alt="">
         </div>
 
         <div class="title-container">
-          <h2 class="title">${p_Data_sheet_clone.title}</h2>
+          <h2 class="title">${data.title}</h2>
 
-          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_clone.skills[0]}"></i>
-            <i class="fa-brands ${p_Data_sheet_clone.skills[1]}"></i> 
-            <i class="fa-brands ${p_Data_sheet_clone.skills[2]}"></i> 
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
          </p>
 
-          <p class="explain">explain: ${p_Data_sheet_clone.explain}</p>
+          <p class="explain">explain: ${data.explain}</p>
 
           <div>
-            <a href="${p_Data_sheet_clone.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
 
             <br>
                   
-            <a href="${p_Data_sheet_clone.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
         </div>        
         </div>   
       </section>    
