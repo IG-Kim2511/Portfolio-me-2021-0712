@@ -515,9 +515,7 @@ function workSheetsRender_smallProjects() {
 
 const cloneBtn = document.querySelector('.clone');
 
-
 cloneBtn.addEventListener('click',workSheetsRender_clone);
-
 
 // workSheetsRender();
 function workSheetsRender_clone() {
@@ -555,3 +553,16 @@ function workSheetsRender_clone() {
     `;
   })  
 }
+
+
+
+// js0220 hide. clone project
+
+// let n = 0;    /* 🍉js 50 */
+smallProjectsBtn.addEventListener("click", function () {
+  n++;    
+ 
+  if (n > 2) {
+    cloneBtn.classList.remove('hideClone'); 
+}
+});
