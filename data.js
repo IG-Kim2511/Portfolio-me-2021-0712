@@ -180,7 +180,7 @@ const Data_sheet_react = [
     id: 100,
     title: "portfolio",    
     skills: ["fa-react","fa-sass"],
-    explain: "useRef, taking data with Map Loop",
+    explain: "basic skills, map loop",
     imgSrc: "./img/projects/me-portfolio_with_React,SCSS.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
     visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
@@ -202,14 +202,44 @@ const Data_sheet_clone = [
     {
       id: 700,
       type:"clone",
+      title: "the road",
+
+      skills: ["fa-js","fa-css3"],
+      explain: "css skill: keyfram, input ",
+      imgSrc: "./img/projects/clone-the road.jpg",
+      github: "https://github.com/IG-Kim2511/the-road-0808-p",
+      visit:"https://ig-kim2511.github.io/the-road-0808-p/",    
+    },  
+    {
+      id: 701,
+      type:"clone",
+      title: "sign in",
+      skills: ["fa-js","fa-css3"],
+      explain: "css skill:navbar",
+      imgSrc: "./img/projects/clone-Sign-In-Sign-Up-Form-HCJ.jpg",
+      github: "https://github.com/IG-Kim2511/Sign-In-Sign-Up-Form-HCJ-2021-0209-P",
+      visit:"https://ig-kim2511.github.io/Sign-In-Sign-Up-Form-HCJ-2021-0209-P/",    
+    },  
+    {
+      id: 702,
+      type:"clone",
+      title: "cars",
+      skills: ["fa-js","fa-css3"],
+      explain: "css skill:input",
+      imgSrc: "./img/projects/clone-0206-cars.jpg",
+      github: "https://github.com/IG-Kim2511/Cars-HCJ-2021-0206-P",
+      visit:"https://ig-kim2511.github.io/Cars-HCJ-2021-0206-P/",    
+    },  
+    {
+      id: 703,
+      type:"clone",
       title: "clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
 
       skills: ["fa-js","fa-sass"],
       explain: "google map share, slideshow framework-swiper, SASS",
       imgSrc: "./img/projects/clone_2022-0218-Ecommerce_Multipage-JS.jpg",
       github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
-      visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",
-    
+      visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",    
     },  
 ];
 
