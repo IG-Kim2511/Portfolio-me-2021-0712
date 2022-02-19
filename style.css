@@ -424,6 +424,15 @@ padding-top: 0;
 
 /* work detail */
 
+#workSheets .btn-container{
+
+  background-color: var(--color-light-write);
+
+  position: sticky;
+  top: 5rem;
+}
+
+
 #workDetail .projects-container{
   display: flex;
   justify-content: center;

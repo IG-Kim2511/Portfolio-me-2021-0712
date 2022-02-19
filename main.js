@@ -325,10 +325,59 @@ function renderWorkDetail_react() {
 }
 
 
-// work sheets
+//🍀js0219. work sheets
+
+//🍉js0219. work sheets - js-web
+
+const JavascriptWebBtn = document.querySelector('.Javascript_web');
+const workSheetsProjects = document.querySelector('.workSheets-projects');
+const workSheets = document.getElementById("workSheets");
+
+JavascriptWebBtn.addEventListener('click',workSheetsRender_jsweb);
+
+
+// workSheetsRender();
+function workSheetsRender_jsweb() {
+  workSheetsProjects.innerHTML="";
+
+  workSheets.scrollIntoView();
+
+  Data_sheet_js_web.forEach((p_Data_sheet_js_web)=>{
+    workSheetsProjects.innerHTML+=`
+      <section class="projects-container">                
+        <div class="img-container">
+          <img src='${p_Data_sheet_js_web.imgSrc}' alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${p_Data_sheet_js_web.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_js_web.skills[0]}"></i>
+            <i class="fa-brands ${p_Data_sheet_js_web.skills[1]}"></i> 
+            <i class="fa-brands ${p_Data_sheet_js_web.skills[2]}"></i> 
+         </p>
+
+          <p class="explain">explain: ${p_Data_sheet_js_web.explain}</p>
+
+          <div>
+            <a href="${p_Data_sheet_js_web.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${p_Data_sheet_js_web.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </section>    
+    `;
+  })  
+}
+
+
+
+//🍉js0219. work sheets - clone
 
 const cloneBtn = document.querySelector('.clone');
-const workSheetsProjects = document.querySelector('.workSheets-projects');
+
 
 cloneBtn.addEventListener('click',workSheetsRender);
 
@@ -336,6 +385,10 @@ cloneBtn.addEventListener('click',workSheetsRender);
 // workSheetsRender();
 function workSheetsRender() {
   workSheetsProjects.innerHTML="";
+  
+  workSheets.scrollIntoView();
+
+
   Data_sheet_clone.forEach((p_Data_sheet_clone)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
@@ -346,8 +399,10 @@ function workSheetsRender() {
         <div class="title-container">
           <h2 class="title">${p_Data_sheet_clone.title}</h2>
 
-          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_clone.skills}"></i> 
-          </p>
+          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_clone.skills[0]}"></i>
+            <i class="fa-brands ${p_Data_sheet_clone.skills[1]}"></i> 
+            <i class="fa-brands ${p_Data_sheet_clone.skills[2]}"></i> 
+         </p>
 
           <p class="explain">explain: ${p_Data_sheet_clone.explain}</p>
 

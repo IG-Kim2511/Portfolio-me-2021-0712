@@ -39,7 +39,35 @@ const Data_react = [
     },  
   ];
   
-const Data_sheet_js_web = [];
+const Data_sheet_js_web = [
+  {
+    id: 200,
+    type:"js-web",
+    title: "ecommerce_shoes_slideshow",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
+    imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
+    visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
+  
+    //🍖js13. numberOfUnits:1
+  },  
+  {
+    id: 201,
+    type:"js-web",
+    title: "Clothes Shopping Cart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, selecting featured images",
+    imgSrc: "./img/projects/me_2021-1109-cloth-Shopping_Cart.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1109-cloth-Shopping_Cart-ig-js",
+    visit:"https://ig-kim2511.github.io/me_2021-1109-cloth-Shopping_Cart-ig-js/",
+  
+    //🍖js13. numberOfUnits:1
+  },  
+
+];
 const Data_sheet_js_app = [];
 const Data_sheet_react = [];
 const Data_sheet_small = [];
