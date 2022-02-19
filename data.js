@@ -19,7 +19,6 @@ const Data_js = [
         github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
         visit: "https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
       
-        //🍖js13. numberOfUnits:1
       },
   ];
   
@@ -35,7 +34,6 @@ const Data_react = [
       github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
       visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",
     
-      //🍖js13. numberOfUnits:1
     },  
   ];
   
@@ -51,7 +49,7 @@ const Data_sheet_js_web = [
     github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
     visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
   
-    //🍖js13. numberOfUnits:1
+    
   },  
   {
     id: 201,
@@ -64,7 +62,18 @@ const Data_sheet_js_web = [
     github: "https://github.com/IG-Kim2511/me_2021-1109-cloth-Shopping_Cart-ig-js",
     visit:"https://ig-kim2511.github.io/me_2021-1109-cloth-Shopping_Cart-ig-js/",
   
-    //🍖js13. numberOfUnits:1
+  },  
+  {
+    id: 202,
+    type:"js-web",
+    title: "Costco_self_checkout",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "virtual keyboard, adding product to cart, calculate price",
+    imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
+    visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
+  
   },  
 
 ];
@@ -84,7 +93,6 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
       visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",
     
-      //🍖js13. numberOfUnits:1
     },  
 ];
 
