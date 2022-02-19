@@ -447,6 +447,31 @@ padding-top: 0;
   margin: auto;
 }
 
+/* work sheets */
+
+#workSheets .projects-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+
+  padding: 2rem;
+  background: var(--color-light);
+}
+
+#workSheets .img-container{
+  width: 10rem;  
+  margin: auto;
+}
+#workSheets .img-container img{
+  width: 100%;
+}
+
+#workSheets .title-container{
+  width: 40rem;
+
+  margin: auto;
+}
+
 
 
 /* work */
