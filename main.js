@@ -339,7 +339,7 @@ const workSheets = document.getElementById("workSheets");
 //🍉js0219. work sheets - js-web
 
 
-const JavascriptWebBtn = document.querySelector('.Javascript_web');
+const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
 
 JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
 
@@ -372,6 +372,49 @@ function workSheetsRender_jsWeb() {
             <br>
                   
             <a href="${p_Data_sheet_js_web.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </section>    
+    `;
+  })  
+}
+
+//🍉js0219. work sheets - js-app
+
+
+const JavascriptAppBtn = document.querySelector('.JavascriptApp');
+
+JavascriptAppBtn.addEventListener('click',workSheetsRender_jsApp);
+
+// workSheetsRender();
+function workSheetsRender_jsApp() {
+  workSheetsProjects.innerHTML="";
+
+  workSheets.scrollIntoView();
+
+  Data_sheet_js_app.reverse().forEach((p_Data_sheet_js_app)=>{
+    workSheetsProjects.innerHTML+=`
+      <section class="projects-container">                
+        <div class="img-container">
+          <img src='${p_Data_sheet_js_app.imgSrc}' alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${p_Data_sheet_js_app.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${p_Data_sheet_js_app.skills[0]}"></i>
+            <i class="fa-brands ${p_Data_sheet_js_app.skills[1]}"></i> 
+            <i class="fa-brands ${p_Data_sheet_js_app.skills[2]}"></i> 
+         </p>
+
+          <p class="explain">explain: ${p_Data_sheet_js_app.explain}</p>
+
+          <div>
+            <a href="${p_Data_sheet_js_app.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${p_Data_sheet_js_app.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
         </div>        
         </div>   
       </section>    

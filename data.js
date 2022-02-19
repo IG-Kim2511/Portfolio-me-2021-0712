@@ -1,3 +1,5 @@
+/* 🍀 data detail - main projects */
+
 const Data_js = [
     {
         id: 0,
@@ -36,6 +38,10 @@ const Data_react = [
     
     },  
   ];
+
+
+
+/* 🍀data sheets */
   
 const Data_sheet_js_web = [
   {
@@ -110,7 +116,72 @@ const Data_sheet_js_web = [
 
 
 ];
-const Data_sheet_js_app = [];
+const Data_sheet_js_app = [
+
+
+  {
+    id: 203,
+    type:"js------",
+    title: "-----",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "-----",
+    imgSrc: "./------",
+    github: "-----",
+    visit:"-----/",
+  },  
+
+  {
+    id: 203,
+    type:"js------",
+    title: "-----",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "-----",
+    imgSrc: "./------",
+    github: "-----",
+    visit:"-----/",
+  },  
+
+  {
+    id: 203,
+    type:"js------",
+    title: "-----",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "-----",
+    imgSrc: "./------",
+    github: "-----",
+    visit:"-----/",
+  },  
+
+  {
+    id: 203,
+    type:"js------",
+    title: "-----",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "-----",
+    imgSrc: "./------",
+    github: "-----",
+    visit:"-----/",
+  },  
+
+  {
+    id: 204,
+    type:"js-app",
+    title: "covid_chart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "",
+    imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
+  },  
+
+
+
+];
 const Data_sheet_react = [];
 const Data_sheet_small = [];
 
