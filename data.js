@@ -154,29 +154,27 @@ const Data_sheet_js_app = [
     github: "-----",
     visit:"-----/",
   },  
-
   {
     id: 203,
-    type:"js------",
-    title: "-----",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "-----",
-    imgSrc: "./------",
-    github: "-----",
-    visit:"-----/",
-  },  
-
-  {
-    id: 204,
     type:"js-app",
     title: "covid_chart",
 
     skills: ["fa-js","fa-css3"],
-    explain: "",
-    imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
+    explain: "fetch data, Chart.js",
+    imgSrc: "./img/projects/me_2021-0422-covid_project-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
     visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
+  },  
+  {
+    id: 204,
+    type:"js-app",
+    title: "Typing Game",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "fetch data and play typing game",
+    imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
+    github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
+    visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
   },  
 
 
