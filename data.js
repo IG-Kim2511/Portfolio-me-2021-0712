@@ -111,48 +111,45 @@ const Data_sheet_js_web = [
     imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
     visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
-  },  
-
-
+  },
 
 ];
+
 const Data_sheet_js_app = [
-
-
   {
-    id: 203,
+    id: 200,
     type:"js------",
-    title: "-----",
+    title: "todolist",
 
     skills: ["fa-js","fa-css3"],
-    explain: "-----",
-    imgSrc: "./------",
-    github: "-----",
-    visit:"-----/",
+    explain: "rendering from input value",
+    imgSrc: "./img/projects/me_2021-0610_todolist-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0610_todolist-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0610_todolist-js/",
   },  
 
   {
-    id: 203,
+    id: 201,
     type:"js------",
-    title: "-----",
+    title: "Expense Tracker",
 
     skills: ["fa-js","fa-css3"],
-    explain: "-----",
-    imgSrc: "./------",
-    github: "-----",
-    visit:"-----/",
+    explain: "rendering from input value",
+    imgSrc: "./img/projects/me_2021-0614_expense_tracker-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0614_expense_tracker-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0614_expense_tracker-js/",
   },  
 
   {
-    id: 203,
-    type:"js------",
-    title: "-----",
+    id: 202,
+    type:"js-app",
+    title: "Note taking",
 
     skills: ["fa-js","fa-css3"],
-    explain: "-----",
-    imgSrc: "./------",
-    github: "-----",
-    visit:"-----/",
+    explain: "rendering from input value",
+    imgSrc: "./img/projects/me_2021-0621_note_taking-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0621_note_taking-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
   },  
   {
     id: 203,
@@ -175,12 +172,12 @@ const Data_sheet_js_app = [
     imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
     github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
     visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
-  },  
-
-
-
+  }, 
 ];
-const Data_sheet_react = [];
+
+const Data_sheet_react = [
+  
+];
 const Data_sheet_small = [];
 
 const Data_sheet_clone = [
