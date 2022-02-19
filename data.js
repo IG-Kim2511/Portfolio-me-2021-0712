@@ -117,7 +117,7 @@ const Data_sheet_js_web = [
 
 const Data_sheet_js_app = [
   {
-    id: 200,
+    id: 300,
     type:"js------",
     title: "todolist",
 
@@ -129,7 +129,7 @@ const Data_sheet_js_app = [
   },  
 
   {
-    id: 201,
+    id: 301,
     type:"js------",
     title: "Expense Tracker",
 
@@ -141,7 +141,7 @@ const Data_sheet_js_app = [
   },  
 
   {
-    id: 202,
+    id: 302,
     type:"js-app",
     title: "Note taking",
 
@@ -152,7 +152,7 @@ const Data_sheet_js_app = [
     visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
   },  
   {
-    id: 203,
+    id: 303,
     type:"js-app",
     title: "covid_chart",
 
@@ -163,7 +163,7 @@ const Data_sheet_js_app = [
     visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
   },  
   {
-    id: 204,
+    id: 304,
     type:"js-app",
     title: "Typing Game",
 
@@ -177,7 +177,7 @@ const Data_sheet_js_app = [
 
 const Data_sheet_react = [
   {
-    id: 100,
+    id: 400,
     title: "portfolio",    
     skills: ["fa-react","fa-sass"],
     explain: "basic skills, map loop",
@@ -186,7 +186,7 @@ const Data_sheet_react = [
     visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
   },
   {
-    id: 101,
+    id: 401,
     title: "Restaurant web",
     skills: ["fa-react","fa-css3"],
     explain: "useRef, taking data with Map Loop",
@@ -196,7 +196,19 @@ const Data_sheet_react = [
   },
 
 ];
-const Data_sheet_small = [];
+const Data_sheet_small = [
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+];
 
 const Data_sheet_clone = [
     {

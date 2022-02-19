@@ -467,6 +467,47 @@ function workSheetsRender_reactWeb() {
 
 
 
+//🍉js0219. work sheets - smallProjects
+
+const smallProjectsBtn = document.querySelector('.smallProjects');
+
+smallProjectsBtn.addEventListener('click',workSheetsRender_smallProjects);
+
+// workSheetsRender();
+function workSheetsRender_smallProjects() {
+  workSheetsProjects.innerHTML="";
+
+  workSheets.scrollIntoView();
+
+  Data_sheet_small.reverse().forEach((data)=>{
+    workSheetsProjects.innerHTML+=`
+      <section class="projects-container">                
+        <div class="img-container">
+          <img src='${data.imgSrc}' alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${data.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
+         </p>
+
+          <p class="explain">explain: ${data.explain}</p>
+
+          <div>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </section>    
+    `;
+  })  
+}
 
 
 
