@@ -327,14 +327,21 @@ function renderWorkDetail_react() {
 
 //🍀js0219. work sheets
 
-//🍉js0219. work sheets - js-web
+/* 🍚
+  if, else if : 각 버튼마다 다른 rendering
 
-const JavascriptWebBtn = document.querySelector('.Javascript_web');
+*/
+
 const workSheetsProjects = document.querySelector('.workSheets-projects');
 const workSheets = document.getElementById("workSheets");
 
-JavascriptWebBtn.addEventListener('click',workSheetsRender_jsweb);
 
+//🍉js0219. work sheets - js-web
+
+
+const JavascriptWebBtn = document.querySelector('.Javascript_web');
+
+JavascriptWebBtn.addEventListener('click',workSheetsRender_jsweb);
 
 // workSheetsRender();
 function workSheetsRender_jsweb() {
@@ -379,11 +386,11 @@ function workSheetsRender_jsweb() {
 const cloneBtn = document.querySelector('.clone');
 
 
-cloneBtn.addEventListener('click',workSheetsRender);
+cloneBtn.addEventListener('click',workSheetsRender_clone);
 
 
 // workSheetsRender();
-function workSheetsRender() {
+function workSheetsRender_clone() {
   workSheetsProjects.innerHTML="";
   
   workSheets.scrollIntoView();
