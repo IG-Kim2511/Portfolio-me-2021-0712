@@ -39,10 +39,10 @@ const Data_react = [
     },  
   ];
   
-const Data_sheet_js_web = []
-const Data_sheet_js_app = []
-const Data_sheet_react = []
-const Data_sheet_small = []
+const Data_sheet_js_web = [];
+const Data_sheet_js_app = [];
+const Data_sheet_react = [];
+const Data_sheet_small = [];
 
 const Data_sheet_clone = [
     {
