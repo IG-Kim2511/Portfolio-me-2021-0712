@@ -332,6 +332,17 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/me_2022-0204-slideShow_autoplay_setInterval_clearInterval-js-folder",
     visit:"https://ig-kim2511.github.io/me_2022-0204-slideShow_autoplay_setInterval_clearInterval-js-folder/",    
   }, 
+  {
+    id: 614,
+    type:"--",
+    title: "fetch-axios datas",
+
+    skills: ["fa-js","fa-react"],
+    explain: "fetch-axios datas",
+    imgSrc: "./img/projects/small-me_2021-0412-fetch-axios-typingGame-Scalper.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0412-fetch-axios-typingGame-Scalper",
+    visit:"https://ig-kim2511.github.io/me_2021-0412-fetch-axios-typingGame-Scalper/",    
+  }, 
 
 ];
 
