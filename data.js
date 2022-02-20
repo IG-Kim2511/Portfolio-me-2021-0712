@@ -112,8 +112,9 @@ const Data_sheet_js_web = [
     github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
     visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
   },
-
 ];
+
+
 
 const Data_sheet_js_app = [
   {
@@ -196,28 +197,30 @@ const Data_sheet_react = [
   },
 
 ];
+
+
 const Data_sheet_small = [
   {
-    id: 613,
-    type:"--",
-    title: "--d",
+    id: 600,
+    type:" ",
+    title: " Virtual Keyboard for number",
 
     skills: ["fa-js","fa-css3"],
-    explain: "--",
-    imgSrc: "./---g",
-    github: "ht---8-p",
-    visit:"ht----/",    
+    explain: "Virtual Keyboard for number",
+    imgSrc: "./img/projects/me_2021-1103-keyboard-number.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1103_keyboard-js",
+    visit:"https://ig-kim2511.github.io/me_2021-1103_keyboard-js/",    
   },  
   {
     id: 613,
-    type:"--",
-    title: "--d",
+    type:" -- ",
+    title: "email.js",
 
     skills: ["fa-js","fa-css3"],
-    explain: "--",
-    imgSrc: "./---g",
-    github: "ht---8-p",
-    visit:"ht----/",    
+    explain: " -- ",
+    imgSrc: "./img/projects/small-email.js.jpg",
+    github: "https://github.com/IG-Kim2511/email.js",
+    visit: "https://ig-kim2511.github.io/email.js/" ,    
   },  
   {
     id: 613,
@@ -385,5 +388,16 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
       visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",    
     },  
+    {
+      id: 704,
+      type:" ",
+      title: " Virtual Keyboard full version ",
+  
+      skills: ["fa-js","fa-css3"],
+      explain: "Virtual Keyboard for number",
+      imgSrc: "./img/projects/me_2021-1103-keyboard-number.jpg",
+      github: "https://github.com/IG-Kim2511/me_2021-1001_keyboard_full",
+      visit:"https://ig-kim2511.github.io/me_2021-1001_keyboard_full/",    
+    }, 
 ];
 
