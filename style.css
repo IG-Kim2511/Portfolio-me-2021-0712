@@ -894,12 +894,14 @@ padding-top: 0;
     padding-top: 80px;
   }
 
-  #workDetail .projects-container{
-  flex-direction: column;
+  #workDetail .projects-container,
+  #workSheets .projects-container{
+    flex-direction: column;
   }
 
-  #workDetail .title-container{
-    width: 30rem;
+  #workDetail .title-container,
+  #workSheets .title-container{
+    width: 25rem;
   }
 
  
