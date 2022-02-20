@@ -153,36 +153,36 @@ window.addEventListener("click", (e) => {
 
 // js 68. projects. button click and move to the project.
 
-const workBtnContainer = document.querySelector(".work__categories");
-const projectContainer = document.querySelector(".work__projects");
-const projects = document.querySelectorAll(".project");
+// const workBtnContainer = document.querySelector(".work__categories");
+// const projectContainer = document.querySelector(".work__projects");
+// const projects = document.querySelectorAll(".project");
 
 
-workBtnContainer.addEventListener("click", (e) => {
-  // 68-1
-  const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+// workBtnContainer.addEventListener("click", (e) => {
+//   // 68-1
+//   const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
 
-  if (filter == null) {
-    return;
-  }
+//   if (filter == null) {
+//     return;
+//   }
 
-  //  68-2
-  projects.forEach((a_project) => {
-    if (filter === "*" || filter === a_project.dataset.type) {
-      a_project.classList.remove("invisible");
-    } else {
-      a_project.classList.add("invisible");
-    }
-  });
+//   //  68-2
+//   projects.forEach((a_project) => {
+//     if (filter === "*" || filter === a_project.dataset.type) {
+//       a_project.classList.remove("invisible");
+//     } else {
+//       a_project.classList.add("invisible");
+//     }
+//   });
 
-  // js 70. project button animation
+//   // js 70. project button animation
 
-  projectContainer.classList.add("anim-out");
+//   projectContainer.classList.add("anim-out");
 
-  setTimeout(() => {
-    projectContainer.classList.remove("anim-out");
-  }, 300);
-});
+//   setTimeout(() => {
+//     projectContainer.classList.remove("anim-out");
+//   }, 300);
+// });
 
 
 
@@ -218,20 +218,20 @@ sendMailBtn.addEventListener('click',()=>{
 
 // js120 hide. clone project
 
-const reactElm = document.querySelector('.react');
-const hideElemAll = document.querySelectorAll('.hide');
+// const reactElm = document.querySelector('.react');
+// const hideElemAll = document.querySelectorAll('.hide');
 
-let n = 0;    /* 🍉js 50 */
+// let n = 0;    /* 🍉js 50 */
 
-reactElm.addEventListener("click", function () {
-  n++;    
+// reactElm.addEventListener("click", function () {
+//   n++;    
  
-  if (n > 2) {
-    for (let i = 0; i < hideElemAll.length; i++) {
-      hideElemAll[i].classList.remove('hide');           
-    }
-}
-});
+//   if (n > 2) {
+//     for (let i = 0; i < hideElemAll.length; i++) {
+//       hideElemAll[i].classList.remove('hide');           
+//     }
+// }
+// });
 
 /* 
 let timeId;
@@ -426,7 +426,7 @@ function workSheetsRender_clone() {
 
 // js0220 hide. clone project
 
-// let n = 0;    /* 🍉js 50 */
+let n = 0;    /* 🍉js 50 */
 smallProjectsBtn.addEventListener("click", function () {
   n++;    
  
