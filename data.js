@@ -396,7 +396,7 @@ const Data_sheet_clone = [
   
       skills: ["fa-js","fa-css3"],
       explain: "Virtual Keyboard for number",
-      imgSrc: "./img/projects/me_2021-1103-keyboard-number.jpg",
+      imgSrc: "./img/projects/clone Virtual Keyboard full version.jpg",
       github: "https://github.com/IG-Kim2511/me_2021-1001_keyboard_full",
       visit:"https://ig-kim2511.github.io/me_2021-1001_keyboard_full/",    
     }, 
