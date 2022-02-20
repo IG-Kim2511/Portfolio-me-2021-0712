@@ -208,6 +208,138 @@ const Data_sheet_small = [
     github: "ht---8-p",
     visit:"ht----/",    
   },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
+  {
+    id: 613,
+    type:"--",
+    title: "--d",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "--",
+    imgSrc: "./---g",
+    github: "ht---8-p",
+    visit:"ht----/",    
+  },  
 ];
 
 const Data_sheet_clone = [

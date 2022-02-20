@@ -342,7 +342,7 @@ function workSheetsRendering(params) {
 
   workSheets.scrollIntoView();
 
-  params.reverse().forEach((data)=>{
+  params.forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
@@ -378,7 +378,7 @@ function workSheetsRendering(params) {
 const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
 JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
 
-workSheetsRender_jsWeb();
+workSheetsRender_jsWeb(); 
 function workSheetsRender_jsWeb() {
   workSheetsRendering(Data_sheet_js_web);
 }
