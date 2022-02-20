@@ -325,31 +325,24 @@ function renderWorkDetail_react() {
 }
 
 
-//🍀js0219. work sheets
+//🍀js0219. work sheets rendering
 
 /* 🍚
   if, else if : 각 버튼마다 다른 rendering
-
 */
 
 const workSheetsProjects = document.querySelector('.workSheets-projects');
 const workSheets = document.getElementById("workSheets");
 
 
-//🍉js0219. work sheets - js-web
 
-
-const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
-
-JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
-
-// workSheetsRender();
-function workSheetsRender_jsWeb() {
+//🍉js0219. sharing function -innerhtml rendering
+function workSheetsRendering(params) {
   workSheetsProjects.innerHTML="";
 
   workSheets.scrollIntoView();
 
-  Data_sheet_js_web.reverse().forEach((data)=>{
+  params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
@@ -379,179 +372,54 @@ function workSheetsRender_jsWeb() {
   })  
 }
 
+
+//🍉js0219. work sheets - js-web
+
+const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
+JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
+
+workSheetsRender_jsWeb();
+function workSheetsRender_jsWeb() {
+  workSheetsRendering(Data_sheet_js_web);
+}
+
 //🍉js0219. work sheets - js-app
 
-
 const JavascriptAppBtn = document.querySelector('.JavascriptApp');
-
 JavascriptAppBtn.addEventListener('click',workSheetsRender_jsApp);
 
-// workSheetsRender();
-function workSheetsRender_jsApp() {
-  workSheetsProjects.innerHTML="";
-
-  workSheets.scrollIntoView();
-
-  Data_sheet_js_app.reverse().forEach((data)=>{
-    workSheetsProjects.innerHTML+=`
-      <section class="projects-container">                
-        <div class="img-container">
-          <img src='${data.imgSrc}' alt="">
-        </div>
-
-        <div class="title-container">
-          <h2 class="title">${data.title}</h2>
-
-          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
-            <i class="fa-brands ${data.skills[1]}"></i> 
-            <i class="fa-brands ${data.skills[2]}"></i> 
-         </p>
-
-          <p class="explain">explain: ${data.explain}</p>
-
-          <div>
-            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
-
-            <br>
-                  
-            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
-        </div>        
-        </div>   
-      </section>    
-    `;
-  })  
+function workSheetsRender_jsApp() {    
+  workSheetsRendering(Data_sheet_js_app);
 }
 
 
 //🍉js0219. work sheets - react
 
 const ReactWebBtn = document.querySelector('.ReactWeb');
-
 ReactWebBtn.addEventListener('click',workSheetsRender_reactWeb);
 
-// workSheetsRender();
 function workSheetsRender_reactWeb() {
-  workSheetsProjects.innerHTML="";
-
-  workSheets.scrollIntoView();
-
-  Data_sheet_react.reverse().forEach((data)=>{
-    workSheetsProjects.innerHTML+=`
-      <section class="projects-container">                
-        <div class="img-container">
-          <img src='${data.imgSrc}' alt="">
-        </div>
-
-        <div class="title-container">
-          <h2 class="title">${data.title}</h2>
-
-          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
-            <i class="fa-brands ${data.skills[1]}"></i> 
-            <i class="fa-brands ${data.skills[2]}"></i> 
-         </p>
-
-          <p class="explain">explain: ${data.explain}</p>
-
-          <div>
-            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
-
-            <br>
-                  
-            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
-        </div>        
-        </div>   
-      </section>    
-    `;
-  })  
+  workSheetsRendering(Data_sheet_react);
 }
-
 
 
 //🍉js0219. work sheets - smallProjects
 
 const smallProjectsBtn = document.querySelector('.smallProjects');
-
 smallProjectsBtn.addEventListener('click',workSheetsRender_smallProjects);
 
-// workSheetsRender();
 function workSheetsRender_smallProjects() {
-  workSheetsProjects.innerHTML="";
-
-  workSheets.scrollIntoView();
-
-  Data_sheet_small.reverse().forEach((data)=>{
-    workSheetsProjects.innerHTML+=`
-      <section class="projects-container">                
-        <div class="img-container">
-          <img src='${data.imgSrc}' alt="">
-        </div>
-
-        <div class="title-container">
-          <h2 class="title">${data.title}</h2>
-
-          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
-            <i class="fa-brands ${data.skills[1]}"></i> 
-            <i class="fa-brands ${data.skills[2]}"></i> 
-         </p>
-
-          <p class="explain">explain: ${data.explain}</p>
-
-          <div>
-            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
-
-            <br>
-                  
-            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
-        </div>        
-        </div>   
-      </section>    
-    `;
-  })  
+  workSheetsRendering(Data_sheet_small);
 }
-
 
 
 //🍉js0219. work sheets - clone
 
 const cloneBtn = document.querySelector('.clone');
-
 cloneBtn.addEventListener('click',workSheetsRender_clone);
 
-// workSheetsRender();
 function workSheetsRender_clone() {
-  workSheetsProjects.innerHTML="";
-  
-  workSheets.scrollIntoView();
-
-
-  Data_sheet_clone.reverse().forEach((data)=>{
-    workSheetsProjects.innerHTML+=`
-      <section class="projects-container">                
-        <div class="img-container">
-          <img src='${data.imgSrc}' alt="">
-        </div>
-
-        <div class="title-container">
-          <h2 class="title">${data.title}</h2>
-
-          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
-            <i class="fa-brands ${data.skills[1]}"></i> 
-            <i class="fa-brands ${data.skills[2]}"></i> 
-         </p>
-
-          <p class="explain">explain: ${data.explain}</p>
-
-          <div>
-            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
-
-            <br>
-                  
-            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
-        </div>        
-        </div>   
-      </section>    
-    `;
-  })  
+    workSheetsRendering(Data_sheet_clone);
 }
 
 
