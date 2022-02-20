@@ -323,3 +323,114 @@ function renderWorkDetail_react() {
     `;
   })  
 }
+
+
+//🍀js0219. work sheets rendering
+
+/* 🍚
+  if, else if : 각 버튼마다 다른 rendering
+*/
+
+const workSheetsProjects = document.querySelector('.workSheets-projects');
+const workSheets = document.getElementById("workSheets");
+
+
+
+//🍉js0219. sharing function -innerhtml rendering
+function workSheetsRendering(params) {
+  workSheetsProjects.innerHTML="";
+
+  workSheets.scrollIntoView();
+
+  params.forEach((data)=>{
+    workSheetsProjects.innerHTML+=`
+      <section class="projects-container">                
+        <div class="img-container">
+          <img src='${data.imgSrc}' alt="">
+        </div>
+
+        <div class="title-container">
+          <h2 class="title">${data.title}</h2>
+
+          <p class="skills">skill: <i class="fa-brands ${data.skills[0]}"></i>
+            <i class="fa-brands ${data.skills[1]}"></i> 
+            <i class="fa-brands ${data.skills[2]}"></i> 
+         </p>
+
+          <p class="explain">explain: ${data.explain}</p>
+
+          <div>
+            <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
+
+            <br>
+                  
+            <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
+        </div>        
+        </div>   
+      </section>    
+    `;
+  })  
+}
+
+
+//🍉js0219. work sheets - js-web
+
+const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
+JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
+
+workSheetsRender_jsWeb(); 
+function workSheetsRender_jsWeb() {
+  workSheetsRendering(Data_sheet_js_web);
+}
+
+//🍉js0219. work sheets - js-app
+
+const JavascriptAppBtn = document.querySelector('.JavascriptApp');
+JavascriptAppBtn.addEventListener('click',workSheetsRender_jsApp);
+
+function workSheetsRender_jsApp() {    
+  workSheetsRendering(Data_sheet_js_app);
+}
+
+
+//🍉js0219. work sheets - react
+
+const ReactWebBtn = document.querySelector('.ReactWeb');
+ReactWebBtn.addEventListener('click',workSheetsRender_reactWeb);
+
+function workSheetsRender_reactWeb() {
+  workSheetsRendering(Data_sheet_react);
+}
+
+
+//🍉js0219. work sheets - smallProjects
+
+const smallProjectsBtn = document.querySelector('.smallProjects');
+smallProjectsBtn.addEventListener('click',workSheetsRender_smallProjects);
+
+function workSheetsRender_smallProjects() {
+  workSheetsRendering(Data_sheet_small);
+}
+
+
+//🍉js0219. work sheets - clone
+
+const cloneBtn = document.querySelector('.clone');
+cloneBtn.addEventListener('click',workSheetsRender_clone);
+
+function workSheetsRender_clone() {
+    workSheetsRendering(Data_sheet_clone);
+}
+
+
+
+// js0220 hide. clone project
+
+// let n = 0;    /* 🍉js 50 */
+smallProjectsBtn.addEventListener("click", function () {
+  n++;    
+ 
+  if (n > 2) {
+    cloneBtn.classList.remove('hideClone'); 
+}
+});

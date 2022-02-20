@@ -424,6 +424,15 @@ padding-top: 0;
 
 /* work detail */
 
+#workSheets .btn-container{
+
+  background-color: var(--color-light-write);
+
+  position: sticky;
+  top: 5rem;
+}
+
+
 #workDetail .projects-container{
   display: flex;
   justify-content: center;
@@ -442,6 +451,31 @@ padding-top: 0;
 }
 
 #workDetail .title-container{
+  width: 40rem;
+
+  margin: auto;
+}
+
+/* work sheets */
+
+#workSheets .projects-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+
+  padding: 2rem;
+  background: var(--color-light);
+}
+
+#workSheets .img-container{
+  width: 10rem;  
+  margin: auto;
+}
+#workSheets .img-container img{
+  width: 100%;
+}
+
+#workSheets .title-container{
   width: 40rem;
 
   margin: auto;
@@ -770,6 +804,10 @@ padding-top: 0;
 /* 🍀Bottom (under the main style coding)- Utility class */
 
 .hide{
+  display: none;
+}
+
+.hideClone{
   display: none;
 }
 
