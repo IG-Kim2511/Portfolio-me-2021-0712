@@ -334,7 +334,7 @@ const Data_sheet_small = [
   }, 
   {
     id: 614,
-    type:"--",
+    type:"small",
     title: "fetch-axios datas",
 
     skills: ["fa-js","fa-react"],
@@ -343,8 +343,20 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/me_2021-0412-fetch-axios-typingGame-Scalper",
     visit:"https://ig-kim2511.github.io/me_2021-0412-fetch-axios-typingGame-Scalper/",    
   }, 
+  {
+    id: 614,
+    type:"small",
+    title: "search filter (jQuery, bootstrap)",
+
+    skills: ["fa-js","fa-bootstrap"],
+    explain: "fetch-axios datas",
+    imgSrc: "./img/projects/small-filter_search 2022-0222-165457.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0222-SearchFilter-js",
+    visit:"https://ig-kim2511.github.io/me_2022-0222-SearchFilter-js/",    
+  }, 
 
 ];
+
 
 const Data_sheet_clone = [
     {
