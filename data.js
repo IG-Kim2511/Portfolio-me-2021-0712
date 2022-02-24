@@ -415,7 +415,7 @@ const Data_sheet_clone = [
     {
       id: 704,
       type:" ",
-      title: "me_2021-0308_breakingbad_react_api-traversy_media",
+      title: "breakingbad_react_api",
   
       skills: ["fa-react"],
       explain: "api, react",

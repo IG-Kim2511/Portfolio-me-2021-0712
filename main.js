@@ -342,7 +342,7 @@ function workSheetsRendering(params) {
 
   workSheets.scrollIntoView();
 
-  params.forEach((data)=>{
+  params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
         <div class="img-container">
