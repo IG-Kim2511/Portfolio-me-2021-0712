@@ -412,5 +412,16 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/me_2021-1001_keyboard_full",
       visit:"https://ig-kim2511.github.io/me_2021-1001_keyboard_full/",    
     }, 
+    {
+      id: 704,
+      type:" ",
+      title: "me_2021-0308_breakingbad_react_api-traversy_media",
+  
+      skills: ["fa-react"],
+      explain: "api, react",
+      imgSrc: "./img/projects/clone-2021-0308_breakingbad_react_api.jpg",
+      github: "https://github.com/IG-Kim2511/c2021-0308_breakingbad_react_api",
+      visit:"https://ig-kim2511.github.io/c2021-0308_breakingbad_react_api_build/",    
+    }, 
 ];
 
