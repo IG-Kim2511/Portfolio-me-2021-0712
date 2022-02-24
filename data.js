@@ -201,8 +201,8 @@ const Data_sheet_react = [
     skills: ["fa-react"],
     explain: "api, filter, includes, some ",
     imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react-lama",
-    visit:"",  
+    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
   },
 
 ];
