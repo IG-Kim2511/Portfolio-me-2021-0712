@@ -195,6 +195,15 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",  
   },
+  {
+    id: 401,
+    title: "search_filter",
+    skills: ["fa-react"],
+    explain: "api, filter, includes, some ",
+    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react-lama",
+    visit:"",  
+  },
 
 ];
 
