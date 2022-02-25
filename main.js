@@ -339,9 +339,7 @@ const workSheets = document.getElementById("workSheets");
 //🍉js0219. sharing function -innerhtml rendering
 function workSheetsRendering(params) {
   workSheetsProjects.innerHTML="";
-
-  workSheets.scrollIntoView();
-
+  
   params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
