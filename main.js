@@ -339,7 +339,20 @@ const workSheets = document.getElementById("workSheets");
 //🍉js0219. sharing function -innerhtml rendering
 function workSheetsRendering(params) {
   workSheetsProjects.innerHTML="";
+
+  /* 🍚 heigh가 어느기준 밑일때만 실행되게하기 */
+
+  // const navbar = document.querySelector("#navbar");
+  // const navbarHeight = navbar.getBoundingClientRect().height;
+
+  // if (window.scrollY > navbarHeight) {
+  //   navbar.classList.add("navbar--dark");
+  // } else {
+  //   navbar.classList.remove("navbar--dark");
+  // }
   
+  workSheets.scrollIntoView();
+
   params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
