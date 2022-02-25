@@ -340,18 +340,20 @@ const workSheets = document.getElementById("workSheets");
 function workSheetsRendering(params) {
   workSheetsProjects.innerHTML="";
 
-  /* 🍚 heigh가 어느기준 밑일때만 실행되게하기 */
+  /* 🍉0219-20. height가 workSheets layout 높을때만 실행 */
 
-  // const navbar = document.querySelector("#navbar");
-  // const navbarHeight = navbar.getBoundingClientRect().height;
+  const workSheets = document.querySelector("#workSheets");
+  const workSheetsHeight = workSheets.getBoundingClientRect().height;
 
-  // if (window.scrollY > navbarHeight) {
-  //   navbar.classList.add("navbar--dark");
-  // } else {
-  //   navbar.classList.remove("navbar--dark");
-  // }
-  
-  workSheets.scrollIntoView();
+  if (window.scrollY > workSheetsHeight) {
+    workSheets.scrollIntoView();    
+  } else {
+    null
+  }
+
+
+
+
 
   params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
