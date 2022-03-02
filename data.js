@@ -27,16 +27,24 @@ const Data_js = [
 
 
 const Data_react = [
-    {
-      id: 100,
-      title: "Restaurant web",
-      skills: ["fa-react","fa-css3"],
-      explain: "useRef, taking data with Map Loop",
-      imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
-      github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
-      visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",
-    
-    },  
+  {
+    id: 401,
+    title: "search_filter",
+    skills: ["fa-react"],
+    explain: "fetch data api, filter, includes, some ",
+    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
+  },
+  {
+    id: 401,
+    title: "ecommerce_design-styled_components",
+    skills: ["fa-react"],
+    explain: "styled componets, slide ",
+    imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
+  }, 
   ];
 
 
@@ -203,6 +211,15 @@ const Data_sheet_react = [
     imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
     visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
+  },
+  {
+    id: 401,
+    title: "ecommerce_design-styled_components",
+    skills: ["fa-react"],
+    explain: "styled componets, slide ",
+    imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
   },
 
 ];
