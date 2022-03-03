@@ -275,7 +275,7 @@ function renderWorkDetail_js() {
           <i class="fa-brands ${p_Data_js.skills[2]}"></i> 
           </p>
 
-          <p class="explain">explain: ${p_Data_js.explain}</p>
+          <p class="explain">Desc: ${p_Data_js.explain}</p>
 
           <div>
             <a href="${p_Data_js.github}" target="_blank">github  <i class="fab fa-github-alt"></i></a>
@@ -309,7 +309,7 @@ function renderWorkDetail_react() {
           <i class="fa-brands ${p_Data_react.skills[2]}"></i> 
         </p>
 
-        <p class="explain">explain: ${p_Data_react.explain}</p>
+        <p class="explain">Desc: ${p_Data_react.explain}</p>
 
         <div>
           <a href="${p_Data_react.github}" target="_blank">github  <i class="fab fa-github-alt"></i></a>
@@ -370,7 +370,7 @@ function workSheetsRendering(params) {
             <i class="fa-brands ${data.skills[2]}"></i> 
          </p>
 
-          <p class="explain">explain: ${data.explain}</p>
+          <p class="explain">Desc: ${data.explain}</p>
 
           <div>
             <a href="${data.github}" target="_blank">github<i class="fab fa-github-alt"></i></a>
