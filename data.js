@@ -189,7 +189,7 @@ const Data_sheet_react = [
     id: 400,
     title: "portfolio",    
     skills: ["fa-react","fa-sass"],
-    explain: "basic skills, map loop",
+    explain: "SASS, basic skills",
     imgSrc: "./img/projects/me-portfolio_with_React,SCSS.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
     visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
