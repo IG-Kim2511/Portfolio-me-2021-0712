@@ -38,13 +38,13 @@ const Data_react = [
   },
   {
     id: 401,
-    title: "ecommerce_design-styled_components",
+    title: "ecommerce_redux_fakestore_api",
     skills: ["fa-react"],
-    explain: "styled componets, slide ",
-    imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
-  }, 
+    explain: "redux, fakestore_api ",
+    imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
+    visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
+  },
   ];
 
 
@@ -220,6 +220,15 @@ const Data_sheet_react = [
     imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
     visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
+  },
+  {
+    id: 401,
+    title: "ecommerce_redux_fakestore_api",
+    skills: ["fa-react"],
+    explain: "redux, fakestore_api ",
+    imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
+    visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
   },
 
 ];
