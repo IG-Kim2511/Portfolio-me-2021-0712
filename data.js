@@ -5,7 +5,7 @@ const Data_js = [
         id: 0,
         title: "Ecommerce shoes",
         skills: ["fa-js","fa-css3"],
-        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
+        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
         imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit: "https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
@@ -16,7 +16,7 @@ const Data_js = [
         id: 1,
         title: "Typing Game",
         skills: ["fa-js","fa-css3"],
-        explain: "fetch data api and play typing game",
+        explain: "fetch data api and play typing game, Vanilla javascript",
         imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
         github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
         visit: "https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
@@ -58,7 +58,7 @@ const Data_sheet_js_web = [
     title: "3D-Wall-scrolling",
 
     skills: ["fa-js","fa-css3"],
-    explain: "offsetHeight, innerHeight,pageYOffset, e.target, e.clientX, resize...etc",
+    explain: "offsetHeight, innerHeight,pageYOffset, e.target, e.clientX, resize...etc, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0813_3D-Wall-scrolling.jpg",
     github: "https://github.com/IG-Kim2511/me_2021_0813-3d-Wall-js",
     visit:"https://ig-kim2511.github.io/me_2021_0813-3d-Wall-js/",  
@@ -69,7 +69,7 @@ const Data_sheet_js_web = [
     title: "portfolio",
 
     skills: ["fa-js","fa-css3"],
-    explain: "rendering products from data",
+    explain: "rendering products from data, Vanilla javascript",
     imgSrc: "./img/projects/me-portfolio-javascript.jpg",
     github: "https://github.com/IG-Kim2511/Portfolio-me-2021-0712",
     visit:"https://ig-kim2511.github.io/Portfolio-me-2021-0712/",  
@@ -80,7 +80,7 @@ const Data_sheet_js_web = [
     title: "Pokemon shopping cart",
 
     skills: ["fa-js","fa-css3"],
-    explain: "adding product to cart, calculate price, localstorage, rendering products from data",
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-1101-Pokemon_Shopping_Cart-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1101-Pokemon_Shopping_Cart-js",
     visit:"https://ig-kim2511.github.io/me_2021-1101-Pokemon_Shopping_Cart-js/",  
@@ -91,7 +91,7 @@ const Data_sheet_js_web = [
     title: "Costco_self_checkout",
 
     skills: ["fa-js","fa-css3"],
-    explain: "virtual keyboard, adding product to cart, calculate price",
+    explain: "virtual keyboard, adding product to cart, calculate price, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
     visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
@@ -103,7 +103,7 @@ const Data_sheet_js_web = [
     title: "Clothes Shopping Cart",
 
     skills: ["fa-js","fa-css3"],
-    explain: "adding product to cart, calculate price, localstorage, rendering products from data, selecting featured images",
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, selecting featured images, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-1109-cloth-Shopping_Cart.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1109-cloth-Shopping_Cart-ig-js",
     visit:"https://ig-kim2511.github.io/me_2021-1109-cloth-Shopping_Cart-ig-js/",
@@ -115,7 +115,7 @@ const Data_sheet_js_web = [
     title: "ecommerce_shoes_slideshow",
 
     skills: ["fa-js","fa-css3"],
-    explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images",
+    explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
     visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
@@ -131,7 +131,7 @@ const Data_sheet_js_app = [
     title: "todolist",
 
     skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value",
+    explain: "rendering from input value, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0610_todolist-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0610_todolist-js",
     visit:"https://ig-kim2511.github.io/me_2021-0610_todolist-js/",
@@ -143,7 +143,7 @@ const Data_sheet_js_app = [
     title: "Expense Tracker",
 
     skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value",
+    explain: "rendering from input value, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0614_expense_tracker-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0614_expense_tracker-js",
     visit:"https://ig-kim2511.github.io/me_2021-0614_expense_tracker-js/",
@@ -155,7 +155,7 @@ const Data_sheet_js_app = [
     title: "Note taking",
 
     skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value",
+    explain: "rendering from input value, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0621_note_taking-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0621_note_taking-js",
     visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
@@ -166,7 +166,7 @@ const Data_sheet_js_app = [
     title: "covid_chart",
 
     skills: ["fa-js","fa-css3"],
-    explain: "fetch data, Chart.js",
+    explain: "fetch data, Chart.js, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0422-covid_project-js.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
     visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
@@ -177,7 +177,7 @@ const Data_sheet_js_app = [
     title: "Typing Game",
 
     skills: ["fa-js","fa-css3"],
-    explain: "fetch data api and play typing game",
+    explain: "fetch data api and play typing game, Vanilla javascript",
     imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
     github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
     visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
@@ -189,7 +189,7 @@ const Data_sheet_react = [
     id: 400,
     title: "portfolio",    
     skills: ["fa-react","fa-sass"],
-    explain: "SASS, basic skills",
+    explain: "SASS, basic skills, Vanilla javascript",
     imgSrc: "./img/projects/me-portfolio_with_React,SCSS.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
     visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
