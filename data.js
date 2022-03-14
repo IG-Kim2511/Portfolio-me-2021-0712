@@ -271,7 +271,7 @@ const Data_sheet_small = [
   {
     id: 613,
     type:"Cat_chasing_ball",
-    title: "--d",
+    title: "Cat_chasing_ball",
 
     skills: ["fa-js","fa-css3"],
     explain: "e.clientX, e.clientY, event-transition",

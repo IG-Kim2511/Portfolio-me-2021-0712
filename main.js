@@ -439,11 +439,14 @@ function workSheetsRender_clone() {
 
 // js0220 hide. clone project
 
+const navWorkSheets = document.querySelector('.nav-workSheets');
+
 let n = 0;    /* 🍉js 50 */
-smallProjectsBtn.addEventListener("click", function () {
+navWorkSheets.addEventListener("click", function () {
   n++;    
  
   if (n > 2) {
     cloneBtn.classList.remove('hideClone'); 
+    smallProjectsBtn.classList.remove('hideClone'); 
 }
 });
