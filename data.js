@@ -85,18 +85,7 @@ const Data_sheet_js_web = [
     github: "https://github.com/IG-Kim2511/me_2021-1101-Pokemon_Shopping_Cart-js",
     visit:"https://ig-kim2511.github.io/me_2021-1101-Pokemon_Shopping_Cart-js/",  
   },  
-  {
-    id: 203,
-    type:"js-web",
-    title: "Costco_self_checkout",
 
-    skills: ["fa-js","fa-css3"],
-    explain: "virtual keyboard, adding product to cart, calculate price, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
-    visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
-  
-  }, 
   {
     id: 204,
     type:"js-web",
@@ -394,6 +383,18 @@ const Data_sheet_small = [
 
 
 const Data_sheet_clone = [
+  {
+    id: 203,
+    type:"js-web",
+    title: "Costco_self_checkout",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "virtual keyboard, adding product to cart, calculate price, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
+    visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
+  
+  }, 
     {
       id: 700,
       type:"clone",
