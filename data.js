@@ -3,24 +3,14 @@
 const Data_js = [
     {
         id: 0,
-        title: "Ecommerce shoes",
-        skills: ["fa-js","fa-css3"],
-        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
-        imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
-        github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
-        visit: "https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
+        title: "Ecommerce-multiPage-SASS-Swiper-Toast",
+        skills: ["fa-js","fa-sass"],
+        explain: "fakestore_api, multipage, adding product to cart, calculate price, localstorage, rendering products from data, Swiper slideshow, Toast message, selecting featured images, Vanilla javascript",
+        imgSrc: "./img/projects/js-me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast.jpg",
+        github: "https://github.com/IG-Kim2511/me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast",
+        visit: "https://ig-kim2511.github.io/me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast/",
       
         //🍖js13. numberOfUnits:1
-      },
-    {
-        id: 1,
-        title: "Typing Game",
-        skills: ["fa-js","fa-css3"],
-        explain: "fetch data api and play typing game, Vanilla javascript",
-        imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
-        github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
-        visit: "https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
-      
       },
   ];
   
@@ -29,17 +19,8 @@ const Data_js = [
 const Data_react = [
   {
     id: 401,
-    title: "search_filter",
-    skills: ["fa-react"],
-    explain: "fetch data api, filter, includes, some ",
-    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
-  },
-  {
-    id: 401,
     title: "ecommerce_redux_fakestore_api",
-    skills: ["fa-react"],
+    skills: ["fa-react","fa-css3"],
     explain: "redux, fakestore_api ",
     imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
@@ -108,6 +89,17 @@ const Data_sheet_js_web = [
     imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
     github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
     visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
+  },
+  {
+    id: 0,
+    title: "Ecommerce-multiPage-SASS-Swiper-Toast",
+    skills: ["fa-js","fa-sass"],
+    explain: "fakestore_api, multipage, adding product to cart, calculate price, localstorage, rendering products from data, Swiper slideshow, Toast message, selecting featured images, Vanilla javascript",
+    imgSrc: "./img/projects/js-me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast",
+    visit: "https://ig-kim2511.github.io/me_2022-0314-Ecommerce-multiPage-SASS-Swiper-Toast/",
+  
+    //🍖js13. numberOfUnits:1
   },
 ];
 
@@ -213,7 +205,7 @@ const Data_sheet_react = [
   {
     id: 401,
     title: "ecommerce_redux_fakestore_api",
-    skills: ["fa-react"],
+    skills: ["fa-react","fa-css3"],
     explain: "redux, fakestore_api ",
     imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",

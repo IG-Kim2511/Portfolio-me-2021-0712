@@ -72,6 +72,8 @@
 
 * {
   box-sizing: border-box;
+  
+  transition: all 0.3s linear;   
 }
 
 body {
@@ -82,7 +84,6 @@ body {
   max-width: var(--max-width);
   margin: auto;
 
-  
 }
 
 a {
@@ -460,6 +461,20 @@ padding-top: 0;
 #workSheets .explain{
   background: var(--color-dark-white);
   border-radius: .5rem;
+
+  padding: 0.5rem;
+}
+
+#workDetail .skills i,
+#workSheets .skills i{
+
+  padding: 0.2rem;
+}
+
+#workDetail .skills i:hover,
+#workSheets .skills i:hover{
+  color: var(--naver-color);
+  transform: scale(150%);
 }
 
 /* work sheets */
