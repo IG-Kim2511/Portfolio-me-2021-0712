@@ -429,17 +429,7 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/Cars-HCJ-2021-0206-P",
       visit:"https://ig-kim2511.github.io/Cars-HCJ-2021-0206-P/",    
     },  
-    {
-      id: 703,
-      type:"clone",
-      title: "clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
-
-      skills: ["fa-js","fa-sass"],
-      explain: "google map share, slideshow library-swiper, SASS",
-      imgSrc: "./img/projects/clone_2022-0218-Ecommerce_Multipage-JS.jpg",
-      github: "https://github.com/IG-Kim2511/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner",
-      visit:"https://ig-kim2511.github.io/clone_2022-0218-Ecommerce_Multipage-JS-Mr.WebDesigner/",    
-    },  
+ 
     {
       id: 704,
       type:" ",
