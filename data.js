@@ -222,6 +222,15 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
   },
+  {
+    id: 401,
+    title: "message_window_of_action-react",
+    skills: ["fa-react","fa-css3"],
+    explain: "show the message of action, creating Btns by clicking btn, send input message to window, Dark Theme mode",
+    imgSrc: "./img/projects/react-me_2022-0322-message_window_of_action-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0322-message_window_of_action-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0322-message_window_of_action-react-build/",  
+  },
 
 ];
 
