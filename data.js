@@ -472,9 +472,18 @@ const Data_sheet_small_react =[
     title: "별코딩 use_reducer - star_coding-80-use_reducer-2022",
     skills: ["fa-react","fa-css3"],
     explain: "별코딩 star_coding-80-use_reducer-2022",
-    imgSrc: "./img/projects/react-small-starcoding80-reducer.jpg",
+    imgSrc: "./img/projects/react-small-me_2022-0327-starcoding80-reducer.jpg",
     github: "https://github.com/IG-Kim2511/star_coding-80-use_reducer-2022",
     visit:"https://ig-kim2511.github.io/star_coding-80-use_reducer-2022-build/",  
+  },
+  {
+    id: 401,
+    title: "react-zustand",
+    skills: ["fa-react"],
+    explain: "zustand",
+    imgSrc: "./img/projects/react-small-me_2022-0328-zustand.jpg",
+    github: "https://github.com/IG-Kim2511/codingapple_2022-0328_zustand-react",
+    visit:"",  
   },
 
 
