@@ -186,15 +186,7 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
     visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
   },
-  {
-    id: 401,
-    title: "Restaurant web",
-    skills: ["fa-react","fa-css3"],
-    explain: "useRef, taking data with Map Loop",
-    imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
-    visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",  
-  },
+
   {
     id: 401,
     title: "search_filter",
@@ -222,16 +214,7 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
   },
-/*   {
-    id: 401,
-    title: "message_window_of_action-react",
-    skills: ["fa-react","fa-css3"],
-    explain: "show the message of action, creating Btns by clicking btn, send input message to window, Dark Theme mode",
-    imgSrc: "./img/projects/react-me_2022-0322-message_window_of_action-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0322-message_window_of_action-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0322-message_window_of_action-react-build/",  
-  },
- */
+
 ];
 
 
@@ -450,16 +433,41 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/me_2021-1001_keyboard_full",
       visit:"https://ig-kim2511.github.io/me_2021-1001_keyboard_full/",    
     }, 
-    {
-      id: 704,
-      type:" ",
-      title: "breakingbad_react_api",
+
+];
+
+const Data_sheet_small_react =[
+  {
+    id: 704,
+    type:" ",
+    title: "breakingbad_react_api",
+
+    skills: ["fa-react"],
+    explain: "fetch data api, react",
+    imgSrc: "./img/projects/clone-2021-0308_breakingbad_react_api.jpg",
+    github: "https://github.com/IG-Kim2511/c2021-0308_breakingbad_react_api",
+    visit:"https://ig-kim2511.github.io/c2021-0308_breakingbad_react_api_build/",    
+  }, 
   
-      skills: ["fa-react"],
-      explain: "fetch data api, react",
-      imgSrc: "./img/projects/clone-2021-0308_breakingbad_react_api.jpg",
-      github: "https://github.com/IG-Kim2511/c2021-0308_breakingbad_react_api",
-      visit:"https://ig-kim2511.github.io/c2021-0308_breakingbad_react_api_build/",    
-    }, 
+  {
+    id: 401,
+    title: "Restaurant web",
+    skills: ["fa-react","fa-css3"],
+    explain: "useRef, taking data with Map Loop",
+    imgSrc: "./img/projects/me_2022-0209-restaurant-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0209_restaurant-react-",
+    visit:"https://ig-kim2511.github.io/me_2022-0209_restaurant-react-build-/",  
+  },
+  {
+    id: 401,
+    title: "message_window_of_action-react",
+    skills: ["fa-react","fa-css3"],
+    explain: "show the message of action, creating Btns by clicking btn, send input message to window, Dark Theme mode",
+    imgSrc: "./img/projects/react-me_2022-0322-message_window_of_action-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0322-message_window_of_action-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0322-message_window_of_action-react-build/",  
+  },
+
+
 ];
 

@@ -417,7 +417,7 @@ function workSheetsRender_reactWeb() {
 }
 
 
-//🍉js0219. work sheets - smallProjects
+//🍉js0219. work sheets - smallProjects-JS
 
 const smallProjectsBtn = document.querySelector('.smallProjects');
 smallProjectsBtn.addEventListener('click',workSheetsRender_smallProjects);
@@ -427,7 +427,7 @@ function workSheetsRender_smallProjects() {
 }
 
 
-//🍉js0219. work sheets - clone
+//🍉js0219. work sheets - clone - JS 
 
 const cloneBtn = document.querySelector('.clone');
 cloneBtn.addEventListener('click',workSheetsRender_clone);
@@ -437,8 +437,20 @@ function workSheetsRender_clone() {
 }
 
 
+//🍉js0219. work sheets - smallProjects-react
 
-// js0220 hide. clone project
+const smallProjectsReactBtn = document.querySelector('.smallProjects-React');
+smallProjectsReactBtn.addEventListener('click',workSheetsRender_smallProjectsReact);
+
+function workSheetsRender_smallProjectsReact() {
+  workSheetsRendering(Data_sheet_small_react);
+}
+
+
+
+
+
+//🍀 js0220 hide. clone project
 
 const navWorkSheets = document.querySelector('.nav-workSheets');
 
@@ -449,5 +461,6 @@ navWorkSheets.addEventListener("click", function () {
   if (n > 2) {
     cloneBtn.classList.remove('hideClone'); 
     smallProjectsBtn.classList.remove('hideClone'); 
+    smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });
