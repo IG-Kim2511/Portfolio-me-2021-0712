@@ -467,6 +467,15 @@ const Data_sheet_small_react =[
     github: "https://github.com/IG-Kim2511/me_2022-0322-message_window_of_action-react",
     visit:"https://ig-kim2511.github.io/me_2022-0322-message_window_of_action-react-build/",  
   },
+  {
+    id: 401,
+    title: "별코딩 use_reducer - star_coding-80-use_reducer-2022",
+    skills: ["fa-react","fa-css3"],
+    explain: "별코딩 star_coding-80-use_reducer-2022",
+    imgSrc: "./img/projects/react-small-starcoding80-reducer.jpg",
+    github: "https://github.com/IG-Kim2511/star_coding-80-use_reducer-2022",
+    visit:"https://ig-kim2511.github.io/star_coding-80-use_reducer-2022-build/",  
+  },
 
 
 ];
