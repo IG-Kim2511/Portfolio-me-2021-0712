@@ -478,12 +478,21 @@ const Data_sheet_small_react =[
   },
   {
     id: 401,
-    title: "별코딩 use_reducer - star_coding-80-use_reducer-2022",
+    title: "별코딩 use_reducer",
     skills: ["fa-react"],
     explain: "별코딩 use_reducer",
     imgSrc: "./img/projects/react-small-me_2022-0327-starcoding80-reducer.jpg",
     github: "https://github.com/IG-Kim2511/star_coding-80-use_reducer-2022",
     visit:"https://ig-kim2511.github.io/react-small-me_2022-0327-starcoding80-reducer-build/",  
+  },
+  {
+    id: 401,
+    title: "별코딩 use_effect",
+    skills: ["fa-react"],
+    explain: "input에 넣은 value...p태그에 띄우기, e.target.value, {showTimer && <Timer/>},  <button onClick={()=>{ setShowTimer(!showTimer)}}>toggle timer</button>",
+    imgSrc: "./img/projects/react-small-me_2022-0401-starcoding10-use_effect.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0401-starcoding10-use_effect",
+    visit:"https://ig-kim2511.github.io/me_2022-0401-starcoding10-use_effect-build/",  
   },
   {
     id: 401,
