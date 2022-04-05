@@ -496,6 +496,15 @@ const Data_sheet_small_react =[
   },
   {
     id: 401,
+    title: "별코딩 use_context, Dark mode",
+    skills: ["fa-react"],
+    explain: " 🦄css에 ternary operator 넣기    isDark가     true이면? black    false이면? lightgray,    클릭하면  setIsDark(!isDark);실행   클릭할때마다 isDark <--> !isDark 바뀜 ",
+    imgSrc: "./img/projects/react-small-me_2022-0402-starcoding50-useContext.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0402-starcoding50-use_context",
+    visit:"https://ig-kim2511.github.io/me_2022-0402-starcoding50-use_context-build/",  
+  },
+  {
+    id: 401,
     title: "react-zustand",
     skills: ["fa-react"],
     explain: "zustand",
