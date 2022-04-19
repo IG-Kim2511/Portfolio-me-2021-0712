@@ -505,6 +505,15 @@ const Data_sheet_small_react =[
   },
   {
     id: 401,
+    title: "별코딩 use_memo, object_data_type-2022",
+    skills: ["fa-react"],
+    explain: " object_reference_data_type",
+    imgSrc: "./img/projects/react-small-me_2022-0406-starcoding60-usememo.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0406-starcoding60-use_memo-object_data_type-2022",
+    visit:"https://ig-kim2511.github.io/me_2022-0406-starcoding60-use_memo-object_data_type-2022-build/",  
+  },
+  {
+    id: 401,
     title: "react-zustand",
     skills: ["fa-react"],
     explain: "zustand",
