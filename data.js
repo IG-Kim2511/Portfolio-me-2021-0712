@@ -44,6 +44,56 @@ const Data_react = [
 /* 🍀data sheets */
   
 const Data_sheet_js_web = [
+  
+  // 🍉쉬운 코딩 프로젝트(JS App - 기초적인 코딩.... 여기로 옮김)
+  {
+    id: 300,
+    type:"js------",
+    title: "todolist",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0610_todolist-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0610_todolist-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0610_todolist-js/",
+  },  
+
+  {
+    id: 301,
+    type:"js------",
+    title: "Expense Tracker",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0614_expense_tracker-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0614_expense_tracker-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0614_expense_tracker-js/",
+  },  
+
+  {
+    id: 302,
+    type:"js-app",
+    title: "Note taking",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0621_note_taking-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0621_note_taking-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
+  },  
+  {
+    id: 304,
+    type:"js-app",
+    title: "Typing Game",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "fetch data api and play typing game, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
+    github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
+    visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
+  }, 
+
+  //🍉 좀더 복잡하고 어려운 프로젝트
   {
     id: 200,
     type:"js-web",
@@ -112,9 +162,12 @@ const Data_sheet_js_web = [
   
     //🍖js13. numberOfUnits:1
   },
+
 ];
 
 
+/* 
+// JS app 버튼 삭제
 
 const Data_sheet_js_app = [
   {
@@ -175,6 +228,8 @@ const Data_sheet_js_app = [
     visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
   }, 
 ];
+ */
+
 
 const Data_sheet_react = [
   // {
@@ -219,6 +274,17 @@ const Data_sheet_react = [
 
 
 const Data_sheet_small = [
+  {
+    id: 303,
+    type:"js-app",
+    title: "covid_chart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "fetch data, Chart.js, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0422-covid_project-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
+  },  
   {
     id: 600,
     type:" ",

@@ -353,9 +353,6 @@ function workSheetsRendering(params) {
   }
 
 
-
-
-
   params.reverse().forEach((data)=>{
     workSheetsProjects.innerHTML+=`
       <section class="projects-container">                
@@ -379,7 +376,7 @@ function workSheetsRendering(params) {
             <br>
                   
             <a href="${data.visit}" target="_blank">web site<i class="fab fa-chrome"></i></a> 
-        </div>        
+          </div>        
         </div>   
       </section>    
     `;
@@ -398,14 +395,14 @@ function workSheetsRender_jsWeb() {
 }
 
 //🍉js0219. work sheets - js-app
-
+/* 
 const JavascriptAppBtn = document.querySelector('.JavascriptApp');
 JavascriptAppBtn.addEventListener('click',workSheetsRender_jsApp);
 
 function workSheetsRender_jsApp() {    
   workSheetsRendering(Data_sheet_js_app);
 }
-
+ */
 
 //🍉js0219. work sheets - react
 
