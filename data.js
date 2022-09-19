@@ -45,54 +45,6 @@ const Data_react = [
   
 const Data_sheet_js_web = [
   
-  // 🍉쉬운 코딩 프로젝트(JS App - 기초적인 코딩.... 여기로 옮김)
-  {
-    id: 300,
-    type:"js------",
-    title: "todolist",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-0610_todolist-js.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-0610_todolist-js",
-    visit:"https://ig-kim2511.github.io/me_2021-0610_todolist-js/",
-  },  
-
-  {
-    id: 301,
-    type:"js------",
-    title: "Expense Tracker",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-0614_expense_tracker-js.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-0614_expense_tracker-js",
-    visit:"https://ig-kim2511.github.io/me_2021-0614_expense_tracker-js/",
-  },  
-
-  {
-    id: 302,
-    type:"js-app",
-    title: "Note taking",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "rendering from input value, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-0621_note_taking-js.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-0621_note_taking-js",
-    visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
-  },  
-  {
-    id: 304,
-    type:"js-app",
-    title: "Typing Game",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "fetch data api and play typing game, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
-    github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
-    visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
-  }, 
-
   //🍉 좀더 복잡하고 어려운 프로젝트
   {
     id: 200,
@@ -450,6 +402,55 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/me_2022-0513-stock-Maximum_Draw_Down_Calculator",
     visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator/",    
   }, 
+  
+  // 🍉쉬운 코딩 프로젝트(JS App - 기초적인 코딩.... 여기로 옮김)
+  {
+    id: 300,
+    type:"js------",
+    title: "todolist",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0610_todolist-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0610_todolist-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0610_todolist-js/",
+  },  
+
+  {
+    id: 301,
+    type:"js------",
+    title: "Expense Tracker",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0614_expense_tracker-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0614_expense_tracker-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0614_expense_tracker-js/",
+  },  
+
+  {
+    id: 302,
+    type:"js-app",
+    title: "Note taking",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "rendering from input value, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0621_note_taking-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0621_note_taking-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0621_note_taking-js/",
+  },  
+  {
+    id: 304,
+    type:"js-app",
+    title: "Typing Game",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "fetch data api and play typing game, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0411_typingGame.jpg",
+    github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
+    visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
+  }, 
+
 
 ];
 
