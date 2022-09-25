@@ -113,7 +113,7 @@ const homeHeight = homeAvatar.getBoundingClientRect().top;
 document.addEventListener("scroll", () => {
 
   // homeAvatar.style.opacity = 1 - window.scrollY / homeHeight;
-  console.log(home.getBoundingClientRect().top) 
+  // console.log(home.getBoundingClientRect().top) 
 
   if (home.getBoundingClientRect().top < 70) {    
     homeAvatar.classList.add('avatar_change');
@@ -292,7 +292,7 @@ function renderWorkDetail_js() {
 }
 
 
-
+/* 
 renderWorkDetail_react();
 function renderWorkDetail_react() {
   Data_react.forEach((p_Data_react)=>{
@@ -325,7 +325,7 @@ function renderWorkDetail_react() {
   })  
 }
 
-
+ */
 //🍀js0219. work sheets rendering
 
 /* 🍚
@@ -457,7 +457,7 @@ navWorkSheets.addEventListener("click", function () {
  
   if (n > 2) {
     cloneBtn.classList.remove('hideClone'); 
-    smallProjectsBtn.classList.remove('hideClone'); 
+    ReactWebBtn.classList.remove('hideClone'); 
     smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });

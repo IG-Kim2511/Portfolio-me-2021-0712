@@ -26,7 +26,7 @@ const Data_js = [
   ];
   
 
-
+/* 
 const Data_react = [
   {
     id: 401,
@@ -37,9 +37,9 @@ const Data_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
   },
-  ];
+];
 
-
+ */
 
 /* 🍀data sheets */
   
