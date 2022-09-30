@@ -26,7 +26,7 @@ const Data_js = [
       {
         id: 205,
         type:"js-web",
-        title: "node_mongo_crud-miniProject",
+        title: "node,mongo,CRUD-miniProject",
     
         skills:  ["fa-node","fa-js"],
         explain: "simple CRUD note app, Node.js, mongoDB, javascript",
@@ -192,6 +192,21 @@ const Data_sheet_js_app = [
   }, 
 ];
  */
+
+
+const Data_node = [
+  {
+    id: 205,
+    type:"js-web",
+    title: "node,mongo,CRUD-miniProject",
+
+    skills:  ["fa-node","fa-js"],
+    explain: "simple CRUD note app, Node.js, mongoDB, javascript",
+    imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+    visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+  },
+];
 
 
 const Data_sheet_react = [
