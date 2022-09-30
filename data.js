@@ -18,10 +18,21 @@ const Data_js = [
         title: "ecommerce_shoes_slideshow",
     
         skills: ["fa-js","fa-css3"],
-        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
+        explain: "",
         imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
+      },
+      {
+        id: 205,
+        type:"js-web",
+        title: "node_mongo_crud-miniProject",
+    
+        skills:  ["fa-node","fa-js"],
+        explain: "simple CRUD note app, Node.js, mongoDB, javascript",
+        imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
+        github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+        visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
       },
   ];
   
