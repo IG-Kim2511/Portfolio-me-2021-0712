@@ -18,7 +18,7 @@ const Data_js = [
         title: "ecommerce_shoes_slideshow",
     
         skills: ["fa-js","fa-css3"],
-        explain: "",
+        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
         imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
