@@ -32,7 +32,8 @@ const Data_js = [
         explain: "simple CRUD note app, Node.js, mongoDB, javascript",
         imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
         github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-        visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+        visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+        // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
       },
   ];
   
@@ -204,7 +205,8 @@ const Data_node = [
     explain: "simple CRUD note app, Node.js, mongoDB, javascript",
     imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-    visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+    visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+    // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
   },
 ];
 
