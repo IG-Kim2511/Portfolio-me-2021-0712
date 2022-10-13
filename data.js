@@ -23,17 +23,26 @@ const Data_js = [
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
       },
-      {
-        id: 205,
-        type:"js-web",
-        title: "node,mongo,CRUD-miniProject",
+      // {
+      //   id: 205,
+      //   type:"js-web",
+      //   title: "node,mongo,CRUD-miniProject",
     
-        skills:  ["fa-node","fa-js"],
-        explain: "simple CRUD note app, Node.js, mongoDB, javascript",
-        imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
-        github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-        visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-        // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+      //   skills:  ["fa-node","fa-js"],
+      //   explain: "simple CRUD note app, Node.js, mongoDB, javascript",
+      //   imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
+      //   github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+      //   visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+      //   // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+      // },
+      {
+        id: 401,
+        title: "ecommerce_redux_fakestore_api",
+        skills: ["fa-react","fa-css3"],
+        explain: "redux, fakestore_api ",
+        imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
+        github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
+        visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
       },
   ];
   
