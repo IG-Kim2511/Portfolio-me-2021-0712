@@ -261,7 +261,7 @@ const Data_sheet_react = [
 
 ];
 
-
+// 🍀JS small project
 const Data_sheet_small = [
   
   // 🍉쉬운 코딩 프로젝트(JS App - 기초적인 코딩.... 여기로 옮김)
@@ -497,6 +497,18 @@ const Data_sheet_small = [
     imgSrc: "./img/projects/me_2022-0919-js-shopping_cart-codepen.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0919-js-shopping_cart-codepen",
     visit:"https://ig-kim2511.github.io/me_2022-0919-js-shopping_cart-codepen/",    
+  }, 
+  
+  {
+    id: 614,
+    type:"small",
+    title: "me_2022-1019-js-rapid_api",
+
+    skills: ["fa-js"],
+    explain: "",
+    imgSrc: "./img/projects/small-me_2022-1019-js-rapid_api.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-1019-js-rapid_api",
+    visit:"https://ig-kim2511.github.io/me_2022-1019-js-rapid_api/",    
   }, 
   
 
