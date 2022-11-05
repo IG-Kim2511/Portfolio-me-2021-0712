@@ -265,6 +265,19 @@ const Data_sheet_react = [
 const Data_sheet_small = [
   
   // 🍉쉬운 코딩 프로젝트(JS App - 기초적인 코딩.... 여기로 옮김)
+
+  {
+    id: 203,
+    type:"js-web",
+    title: "Costco_self_checkout",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "virtual keyboard, adding product to cart, calculate price, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
+    visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
+  
+  }, 
   {
     id: 300,
     type:"js------",
@@ -465,17 +478,7 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/me_2021-0412-fetch-axios-typingGame-Scalper",
     visit:"https://ig-kim2511.github.io/me_2021-0412-fetch-axios-typingGame-Scalper/",    
   }, 
-  {
-    id: 614,
-    type:"small",
-    title: "search filter (jQuery, bootstrap)",
 
-    skills: ["fa-js","fa-bootstrap"],
-    explain: "fetch-axios datas",
-    imgSrc: "./img/projects/small-filter_search 2022-0222-165457.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0222-SearchFilter-js",
-    visit:"https://ig-kim2511.github.io/me_2022-0222-SearchFilter-js/",    
-  }, 
   {
     id: 614,
     type:"small",
@@ -486,6 +489,24 @@ const Data_sheet_small = [
     imgSrc: "./img/projects/small-me_2022-0514-stock_mdd_calculator.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0513-stock-Maximum_Draw_Down_Calculator",
     visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator/",    
+  }, 
+
+
+
+];
+
+// Javascript clone, practice design, incomplete
+const Data_sheet_clone = [
+  {
+    id: 614,
+    type:"small",
+    title: "search filter (jQuery, bootstrap)",
+
+    skills: ["fa-js","fa-bootstrap"],
+    explain: "fetch-axios datas",
+    imgSrc: "./img/projects/small-filter_search 2022-0222-165457.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0222-SearchFilter-js",
+    visit:"https://ig-kim2511.github.io/me_2022-0222-SearchFilter-js/",    
   }, 
   {
     id: 614,
@@ -524,23 +545,6 @@ const Data_sheet_small = [
   }, 
   
 
-
-];
-
-
-const Data_sheet_clone = [
-  {
-    id: 203,
-    type:"js-web",
-    title: "Costco_self_checkout",
-
-    skills: ["fa-js","fa-css3"],
-    explain: "virtual keyboard, adding product to cart, calculate price, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-1030-Costco_self_checkout.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-1030-costco",
-    visit:"https://ig-kim2511.github.io/me_2021-1030-costco/",
-  
-  }, 
     {
       id: 700,
       type:"clone",
