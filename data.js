@@ -511,6 +511,18 @@ const Data_sheet_small = [
     visit:"https://ig-kim2511.github.io/me_2022-1019-js-rapid_api/",    
   }, 
   
+  {
+    id: 614,
+    type:"small",
+    title: "me_2022-1104-js-youtube Clone-google cloud Youtube API",
+
+    skills: ["fa-js"],
+    explain: "google cloud Youtube API",
+    imgSrc: "./img/projects/small-me_2022-1104-js-youtube Clone-google cloud Youtube API.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-1104-js-youtube-Clone-google-cloud-Youtube-API",
+    visit:"https://ig-kim2511.github.io/me_2022-1104-js-youtube-Clone-google-cloud-Youtube-API/",    
+  }, 
+  
 
 
 ];
