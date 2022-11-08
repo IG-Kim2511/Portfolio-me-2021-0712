@@ -324,17 +324,7 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/c2021_0411-me_js_typingGame",
     visit:"https://ig-kim2511.github.io/c2021_0411-me_js_typingGame/",
   }, 
-  {
-    id: 303,
-    type:"js-app",
-    title: "covid_chart",
 
-    skills: ["fa-js","fa-css3"],
-    explain: "fetch data, Chart.js, Vanilla javascript",
-    imgSrc: "./img/projects/me_2021-0422-covid_project-js.jpg",
-    github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
-    visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
-  },  
   {
     id: 600,
     type:" ",
@@ -497,6 +487,17 @@ const Data_sheet_small = [
 
 // Javascript clone, practice design, incomplete
 const Data_sheet_clone = [
+  {
+    id: 303,
+    type:"js-app",
+    title: "covid_chart",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "fetch data, Chart.js, Vanilla javascript",
+    imgSrc: "./img/projects/me_2021-0422-covid_project-js.jpg",
+    github: "https://github.com/IG-Kim2511/me_2021-0422-covid_project-js",
+    visit:"https://ig-kim2511.github.io/me_2021-0422-covid_project-js/",
+  },  
   {
     id: 614,
     type:"small",
