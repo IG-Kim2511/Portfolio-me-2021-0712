@@ -930,8 +930,7 @@ padding-top: 0;
     top: 3.5rem;
   }
 
-  #workSheets .btn-container button{       
-    background: yellow;
+  #workSheets .btn-container button{  
     font-size: var(--font-small);
     margin: 1px;
     padding: 2px 3px;
