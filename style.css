@@ -323,6 +323,19 @@ padding-top: 0;
   width: calc(var(--max-width) / 2);  
   text-align: center;
 }
+#about .middle-parents{
+  background: var(--color-dark-white);
+  margin: auto 0.5rem;
+  border-radius: 0.3rem;
+}
+
+#about .skills .skill,
+#about .skills .tool{  
+
+
+  font-size: 1.5rem;
+  font-weight: var(--weight-semi-bold600);  
+}
 
 /* 
 #about .about__majors {
