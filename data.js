@@ -590,6 +590,18 @@ const Data_sheet_clone = [
       visit:"https://ig-kim2511.github.io/me_2021-1001_keyboard_full/",    
     }, 
 
+    {
+      id: 704,
+      type:" ",
+      title: " clone 230 codewithsadee-me_2022-1123-css,js-Modern eCommerce-극한의 CSS ",
+  
+      skills: ["fa-js","fa-css3"],
+      explain: "ecommerce site, 극한의 CSS.jpg",
+      imgSrc: "./img/projects/clone 230 codewithsadee-me_2022-1123-css,js-Modern eCommerce-극한의 CSS.jpg",
+      github: "https://github.com/IG-Kim2511/230-codewithsadee-me_2022-1123-css-js-Modern-eCommerce--CSS",
+      visit:"https://ig-kim2511.github.io/230-codewithsadee-me_2022-1123-css-js-Modern-eCommerce--CSS/",    
+    }, 
+
 ];
 
 const Data_sheet_small_react =[
