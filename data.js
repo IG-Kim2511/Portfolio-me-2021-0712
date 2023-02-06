@@ -472,13 +472,13 @@ const Data_sheet_small = [
   {
     id: 614,
     type:"small",
-    title: "stock-Maximum_Draw_Down_Calculator",
+    title: "stock-Maximum_Draw_Down_Calculator-MDD",
 
     skills: ["fa-js"],
     explain: "",
     imgSrc: "./img/projects/small-me_2022-0514-stock_mdd_calculator.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0513-stock-Maximum_Draw_Down_Calculator",
-    visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator/",    
+    visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator-MDD/",    
   }, 
 
 

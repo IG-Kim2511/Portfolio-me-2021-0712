@@ -470,3 +470,16 @@ navWorkSheets.addEventListener("click", function () {
     smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });
+
+
+// 🍀js2023-0206 click btn on work Sheets, scroll to work sheets section
+// nodeBtn
+// ReactWebBtn
+// smallProjectsBtn
+// cloneBtn
+// smallProjectsReactBtn
+// JavascriptWebBtn
+
+// JavascriptWebBtn.addEventListener('click',()=>{
+//   scrollTo.scrollIntoView({ behavior: "smooth" });
+// });
