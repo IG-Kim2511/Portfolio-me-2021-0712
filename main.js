@@ -94,6 +94,24 @@ arrowUp.addEventListener("click", () => {
   scrollIntoView("#home");
 });
 
+// 🍀js2023-0206 click btn on work Sheets, scroll to work sheets section
+
+const workSheets_btnContainer = document.querySelector('#workSheets .btn-container');
+
+workSheets_btnContainer.addEventListener("click", (event) => {
+  const target = event.target;
+  const sheets = target.dataset.sheets;
+
+  const scrollTo = document.querySelector(sheets);
+  scrollTo.scrollIntoView({ behavior: "smooth" });
+
+  if (sheets === null) {
+    return;
+  }
+});
+
+
+
 // js 74.  Navbar toggle button for small screen
 
 const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
@@ -454,8 +472,6 @@ function workSheetsRender_smallProjectsReact() {
 
 
 
-
-
 //🍀 js0220 hide. clone project
 
 const navWorkSheets = document.querySelector('.nav-workSheets');
@@ -470,16 +486,3 @@ navWorkSheets.addEventListener("click", function () {
     smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });
-
-
-// 🍀js2023-0206 click btn on work Sheets, scroll to work sheets section
-// nodeBtn
-// ReactWebBtn
-// smallProjectsBtn
-// cloneBtn
-// smallProjectsReactBtn
-// JavascriptWebBtn
-
-// JavascriptWebBtn.addEventListener('click',()=>{
-//   scrollTo.scrollIntoView({ behavior: "smooth" });
-// });
