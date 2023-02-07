@@ -446,17 +446,7 @@ const Data_sheet_small = [
     github: "https://github.com/IG-Kim2511/me_2022-0131-input-form--js",
     visit:"https://ig-kim2511.github.io/me_2022-0131-input-form--js/",    
   },  
-  {
-    id: 613,
-    type:"--",
-    title: "slideshow",
 
-    skills: ["fa-js","fa-css3"],
-    explain: "slideshow,autoplay,setInterval",
-    imgSrc: "./img/projects/small-slideShow.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0204-slideShow_autoplay_setInterval_clearInterval-js-folder",
-    visit:"https://ig-kim2511.github.io/me_2022-0204-slideShow_autoplay_setInterval_clearInterval-js-folder/",    
-  }, 
   {
     id: 614,
     type:"small",
@@ -600,6 +590,19 @@ const Data_sheet_clone = [
       imgSrc: "./img/projects/clone 230 codewithsadee-me_2022-1123-css,js-Modern eCommerce-극한의 CSS.jpg",
       github: "https://github.com/IG-Kim2511/230-codewithsadee-me_2022-1123-css-js-Modern-eCommerce--CSS",
       visit:"https://ig-kim2511.github.io/230-codewithsadee-me_2022-1123-css-js-Modern-eCommerce--CSS/",    
+    }, 
+
+    // 🍀AI- chatGPT
+    {
+      id: 704,
+      type:" ",
+      title: "AI slide show example - w3school , chatGPT-JS, chatGPT-react native ",
+  
+      skills: ["fa-js","fa-css3","fa-react"],
+      explain: "AI slide show example - w3school , chatGPT-JS, chatGPT-react native",
+      imgSrc: "./img/projects/small-slideShow.jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0207-slideShow-AI-folder",
+      visit:"https://ig-kim2511.github.io/me_2023-0207-slideShow-AI-folder/",    
     }, 
 
 ];
