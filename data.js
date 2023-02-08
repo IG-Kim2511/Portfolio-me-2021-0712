@@ -604,6 +604,41 @@ const Data_sheet_clone = [
       github: "https://github.com/IG-Kim2511/me_2023-0207-slideShow-AI-folder",
       visit:"https://ig-kim2511.github.io/me_2023-0207-slideShow-AI-folder/",    
     }, 
+    {
+      id: 704,
+      type:" ",
+      title: "Calculator   ",
+  
+      skills: ["fa-js","fa-css3"],
+      explain: "",
+      imgSrc: "./img/projects/clone 2023-0208-Calculator  (1).jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0208-Calculator-js-AI-folder",
+      visit:"https://ig-kim2511.github.io/me_2023-0208-Calculator-js-AI-folder/",    
+    }, 
+    {
+      id: 704,
+      type:" ",
+      title: "Calculator   ",
+  
+      skills: ["fa-js","fa-css3"],
+      explain: "",
+      imgSrc: "./img/projects/clone 2023-0208-Calculator  (2).jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0208-2-Calculator-js-github_Source",
+      visit:"https://ig-kim2511.github.io/me_2023-0208-2-Calculator-js-github_Source/",    
+    }, 
+    {
+      id: 704,
+      type:" ",
+      title: "cart   ",
+  
+      skills: ["fa-js","fa-css3"],
+      explain: "",
+      imgSrc: "./img/projects/clone 2023-0208-cart(3).jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0209-Shopping-Cart-js-github_Source",
+      visit:"https://ig-kim2511.github.io/me_2023-0209-Shopping-Cart-js-github_Source/",    
+    }, 
+
+
 
 ];
 
