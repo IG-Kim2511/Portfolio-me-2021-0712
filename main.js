@@ -405,12 +405,10 @@ function workSheetsRendering(params) {
 //🍉js0219. work sheets - js-web
 
 const JavascriptWebBtn = document.querySelector('.JavascriptWeb');
-JavascriptWebBtn.addEventListener('click',workSheetsRender_jsWeb);
-
-workSheetsRender_jsWeb(); 
-function workSheetsRender_jsWeb() {
+JavascriptWebBtn.addEventListener('click',()=>{  
   workSheetsRendering(Data_sheet_js_web);
-}
+  
+});
 
 //🍉js0219. work sheets - js-app
 /* 
@@ -425,50 +423,56 @@ function workSheetsRender_jsApp() {
 //🍉js0219. work sheets - Node.js
 
 const nodeBtn = document.querySelector('.node');
-nodeBtn.addEventListener('click',workSheetsRender_node);
-
-function workSheetsRender_node() {
+nodeBtn.addEventListener('click',()=>{  
   workSheetsRendering(Data_node);
+});
+function workSheetsRender_node() {
 }
 
 //🍉js0219. work sheets - react
 
 const ReactWebBtn = document.querySelector('.ReactWeb');
-ReactWebBtn.addEventListener('click',workSheetsRender_reactWeb);
-
-function workSheetsRender_reactWeb() {
+ReactWebBtn.addEventListener('click',()=>{  
   workSheetsRendering(Data_sheet_react);
+});
+function workSheetsRender_reactWeb() {
 }
 
 
 //🍉js0219. work sheets - smallProjects-JS
 
 const smallProjectsBtn = document.querySelector('.smallProjects');
-smallProjectsBtn.addEventListener('click',workSheetsRender_smallProjects);
-
-function workSheetsRender_smallProjects() {
+smallProjectsBtn.addEventListener('click',()=>{  
   workSheetsRendering(Data_sheet_small);
+});
+function workSheetsRender_smallProjects() {
 }
+
+//🍉js0219. work sheets - smallProjects-react
+
+const smallProjectsReactBtn = document.querySelector('.smallProjects-React');
+smallProjectsReactBtn.addEventListener('click',()=>{  
+  workSheetsRendering(Data_sheet_small_react);
+});
+
 
 
 //🍉js0219. work sheets - clone - JS 
 
 const cloneBtn = document.querySelector('.clone');
-cloneBtn.addEventListener('click',workSheetsRender_clone);
-
-function workSheetsRender_clone() {
-    workSheetsRendering(Data_sheet_clone);
-}
+cloneBtn.addEventListener('click',()=>{  
+  workSheetsRendering(Data_AI_github_source_clone);
+});
 
 
-//🍉js0219. work sheets - smallProjects-react
+//🍉js0219. work sheets - clone - JS 
 
-const smallProjectsReactBtn = document.querySelector('.smallProjects-React');
-smallProjectsReactBtn.addEventListener('click',workSheetsRender_smallProjectsReact);
+const small_featureBtn = document.querySelector('.small_feature');
+small_featureBtn.addEventListener('click',()=>{  
+  workSheetsRendering(Data_small_feature);
+});
 
-function workSheetsRender_smallProjectsReact() {
-  workSheetsRendering(Data_sheet_small_react);
-}
+
 
 
 
@@ -482,7 +486,7 @@ navWorkSheets.addEventListener("click", function () {
  
   if (n > 2) {
     cloneBtn.classList.remove('hideClone'); 
-    ReactWebBtn.classList.remove('hideClone'); 
-    smallProjectsReactBtn.classList.remove('hideClone'); 
+    small_featureBtn.classList.remove('hideClone'); 
+    // smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });
