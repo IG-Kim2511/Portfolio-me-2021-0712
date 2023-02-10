@@ -754,4 +754,26 @@ const Data_small_feature = [
     github: "https://github.com/IG-Kim2511/slides-js-folder",
     visit:"..",
   },  
+  {
+    id: 303,
+    type:"js-app",
+    title: "featured_products-js-folder",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "..",
+    imgSrc: "..",
+    github: "https://github.com/IG-Kim2511/featured_products-js-folder",
+    visit:"..",
+  },  
+  {
+    id: 303,
+    type:"js-app",
+    title: "cart-js-folder",
+
+    skills: ["fa-js","fa-css3"],
+    explain: "..",
+    imgSrc: "..",
+    github: "https://github.com/IG-Kim2511/cart-js-folder",
+    visit:"..",
+  },  
 ];
