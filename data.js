@@ -459,20 +459,6 @@ const Data_sheet_small = [
     visit:"https://ig-kim2511.github.io/me_2021-0412-fetch-axios-typingGame-Scalper/",    
   }, 
 
-  {
-    id: 614,
-    type:"small",
-    title: "stock-Maximum_Draw_Down_Calculator-MDD",
-
-    skills: ["fa-js"],
-    explain: "",
-    imgSrc: "./img/projects/small-me_2022-0514-stock_mdd_calculator.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0513-stock-Maximum_Draw_Down_Calculator",
-    visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator-MDD/",    
-  }, 
-
-
-
 ];
 
 
@@ -577,6 +563,17 @@ const Data_sheet_small_react =[
 
 // AI, github source code, clone,practice design, incomplete JS
 const Data_AI_github_source_clone = [
+  {
+    id: 614,
+    type:"small",
+    title: "stock-Maximum_Draw_Down_Calculator-MDD",
+
+    skills: ["fa-js"],
+    explain: "",
+    imgSrc: "./img/projects/small-me_2022-0514-stock_mdd_calculator.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0513-stock-Maximum_Draw_Down_Calculator",
+    visit:"https://ig-kim2511.github.io/me_2022-0513-stock-Maximum_Draw_Down_Calculator-MDD/",    
+  }, 
   {
     id: 303,
     type:"js-app",
