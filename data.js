@@ -466,6 +466,28 @@ const Data_sheet_small_react =[
   {
     id: 704,
     type:" ",
+    title: "react-tap_page",
+
+    skills: ["fa-react"],
+    explain: "",
+    imgSrc: "",
+    github: "https://github.com/IG-Kim2511/me_2023-0802-react-tap_page-folder",
+    visit:"",    
+  }, 
+  {
+    id: 704,
+    type:" ",
+    title: "fetching data from excel  file- xlsx",
+
+    skills: ["fa-react"],
+    explain: "",
+    imgSrc: "",
+    github: "https://github.com/IG-Kim2511/me_2023-0728-react-fetching-data-from-excel-file--xlsx",
+    visit:"",    
+  }, 
+  {
+    id: 704,
+    type:" ",
     title: "breakingbad_react_api",
 
     skills: ["fa-react"],
@@ -495,7 +517,7 @@ const Data_sheet_small_react =[
   },
   {
     id: 401,
-    title: " me_2022-0329-starcoding10-usestate",
+    title: "usestate",
     skills: ["fa-react"],
     explain: " usestate",
     imgSrc: "./img/projects/react-small-me_2022-0329-starcoding10-usestate.jpg",
@@ -549,7 +571,7 @@ const Data_sheet_small_react =[
   },
   {
     id: 401,
-    title: "me_2022-1107-stock_market_tracking_app-",
+    title: "stock_market_tracking_app-",
     skills: ["fa-react"],
     explain: "stock_free_api, plotly",
     imgSrc: "./img/projects/react-small-me_2022-1107-stock_market_tracking_app-react-stock_free_api-plotly.jpg",
