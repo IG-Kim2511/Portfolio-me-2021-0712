@@ -457,19 +457,19 @@ smallProjectsReactBtn.addEventListener('click',()=>{
 
 
 
-//🍉js0219. work sheets - clone - JS 
+//🍉js0219. work sheets - js-ai - JS 
 
-const cloneBtn = document.querySelector('.clone');
-cloneBtn.addEventListener('click',()=>{  
+const js_aiBtn = document.querySelector('.js-ai');
+js_aiBtn.addEventListener('click',()=>{  
   workSheetsRendering(Data_AI_github_source_clone);
 });
 
 
-//🍉js0219. work sheets - clone - JS 
+//🍉js0219. work sheets - React-ai - JS 
 
-const small_featureBtn = document.querySelector('.small_feature');
-small_featureBtn.addEventListener('click',()=>{  
-  workSheetsRendering(Data_small_feature);
+const React_aiBtn = document.querySelector('.React-ai');
+React_aiBtn.addEventListener('click',()=>{  
+  workSheetsRendering(Data_React_ai);
 });
 
 
@@ -485,8 +485,8 @@ navWorkSheets.addEventListener("click", function () {
   n++;    
  
   if (n > 2) {
-    cloneBtn.classList.remove('hideClone'); 
-    small_featureBtn.classList.remove('hideClone'); 
-    // smallProjectsReactBtn.classList.remove('hideClone'); 
+    js_aiBtn.classList.remove('hideClone'); 
+    React_aiBtn.classList.remove('hideClone'); 
+    smallProjectsReactBtn.classList.remove('hideClone'); 
 }
 });

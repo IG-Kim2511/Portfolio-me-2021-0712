@@ -463,28 +463,7 @@ const Data_sheet_small = [
 
 
 const Data_sheet_small_react =[
-  {
-    id: 704,
-    type:" ",
-    title: "react-tap_page",
 
-    skills: ["fa-react"],
-    explain: "",
-    imgSrc: "",
-    github: "https://github.com/IG-Kim2511/me_2023-0802-react-tap_page-folder",
-    visit:"",    
-  }, 
-  {
-    id: 704,
-    type:" ",
-    title: "fetching data from excel  file- xlsx",
-
-    skills: ["fa-react"],
-    explain: "",
-    imgSrc: "",
-    github: "https://github.com/IG-Kim2511/me_2023-0728-react-fetching-data-from-excel-file--xlsx",
-    visit:"",    
-  }, 
   {
     id: 704,
     type:" ",
@@ -560,24 +539,7 @@ const Data_sheet_small_react =[
     github: "https://github.com/IG-Kim2511/me_2022-0406-starcoding60-use_memo-object_data_type-2022",
     visit:"https://ig-kim2511.github.io/me_2022-0406-starcoding60-use_memo-object_data_type-2022-build/",  
   },
-  {
-    id: 401,
-    title: "react-zustand",
-    skills: ["fa-react"],
-    explain: "zustand",
-    imgSrc: "./img/projects/react-small-me_2022-0328-zustand.jpg",
-    github: "https://github.com/IG-Kim2511/codingapple_2022-0328_zustand-react",
-    visit:"",  
-  },
-  {
-    id: 401,
-    title: "stock_market_tracking_app-",
-    skills: ["fa-react"],
-    explain: "stock_free_api, plotly",
-    imgSrc: "./img/projects/react-small-me_2022-1107-stock_market_tracking_app-react-stock_free_api-plotly.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-1107-stock_market_tracking_app-react-stock_free_api-plotly",
-    visit:"https://ig-kim2511.github.io/me_2022-1107-stock_market_tracking_app-react-stock_free_api-plotly-build/",  
-  },
+
 
 
 ];
@@ -761,7 +723,7 @@ const Data_AI_github_source_clone = [
 
 
 // 🍀small-feature-from-bigProject
-const Data_small_feature = [
+const Data_React_ai = [
   {
     id: 303,
     type:"js-app",
