@@ -69,7 +69,7 @@ const Data_sheet_small_react =[
     },
     {
       id: 401,
-      title: " use_memo, object_data_type-2022",
+      title: " use_memo, object_data_type",
       skills: ["fa-react"],
       explain: " object_reference_data_type",
       imgSrc: "./img/projects/react-small-me_2022-0406-starcoding60-usememo.jpg",
