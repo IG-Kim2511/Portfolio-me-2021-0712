@@ -484,7 +484,7 @@ let n = 0;    /* 🍉js 50 */
 navWorkSheets.addEventListener("click", function () {
   n++;    
  
-  if (n > 2) {
+  if (n > 4) {
     js_aiBtn.classList.remove('hideClone'); 
     React_aiBtn.classList.remove('hideClone'); 
     smallProjectsReactBtn.classList.remove('hideClone'); 

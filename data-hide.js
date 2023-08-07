@@ -1,6 +1,6 @@
 
 
-// AI, github source code, clone,practice design, incomplete JS
+// 🍀Javascript , AI, github source code, clone,practice design, incomplete JS
 const Data_AI_github_source_clone = [
     {
       id: 614,
@@ -210,8 +210,17 @@ const Data_AI_github_source_clone = [
   
   
   
-  // 🍀small-feature-from-bigProject
+  // 🍀React, small-feature-from-bigProject
   const Data_React_ai = [
+    {
+      id: 401,
+      title: "me_2023-0805-react-redux 2023 new",
+      skills: ["fa-react"],
+      explain: "",
+      imgSrc: "",
+      github: "https://github.com/IG-Kim2511/me_2023-0805-react-redux",
+      visit:"",  
+    },
     {
       id: 401,
       title: "react-zustand",
