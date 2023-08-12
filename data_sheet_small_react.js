@@ -77,6 +77,15 @@ const Data_sheet_small_react =[
       visit:"https://ig-kim2511.github.io/me_2022-0406-starcoding60-use_memo-object_data_type-2022-build/",  
     },
   
+    {
+      id: 401,
+      title: "ecommerce_design-styled_components",
+      skills: ["fa-react"],
+      explain: "styled componets, slide ",
+      imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
+      github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
+      visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
+    },
   
   
   ];

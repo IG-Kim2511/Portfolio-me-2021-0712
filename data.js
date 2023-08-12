@@ -240,15 +240,7 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
     visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
   },
-  {
-    id: 401,
-    title: "ecommerce_design-styled_components",
-    skills: ["fa-react"],
-    explain: "styled componets, slide ",
-    imgSrc: "./img/projects/react-me_2022-0302-ecommerce_design-styled_components-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0302-ecommerce_design-styled_components-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0302-ecommerce_design-styled_components-react----build/",  
-  },
+
   {
     id: 401,
     title: "ecommerce_redux_fakestore_api",
@@ -257,6 +249,15 @@ const Data_sheet_react = [
     imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
+  },
+  {
+    id: 401,
+    title: "the_road",
+    skills: ["fa-react","fa-css3"],
+    explain: "css design simple website",
+    imgSrc: "./img/projects/me_2023-0802-the_road-react-build.jpg",
+    github: "https://github.com/IG-Kim2511/me_2023-0802-the_road-react-build",
+    visit: "https://ig-kim2511.github.io/me_2023-0802-the_road-react-build/",  
   },
 
 ];
