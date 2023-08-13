@@ -252,7 +252,7 @@ const Data_sheet_react = [
   },
   {
     id: 401,
-    title: "the_road",
+    title: "css design simple website (the_road)",
     skills: ["fa-react","fa-css3"],
     explain: "css design simple website",
     imgSrc: "./img/projects/me_2023-0802-the_road-react-build.jpg",
