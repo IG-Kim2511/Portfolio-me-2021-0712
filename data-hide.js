@@ -225,7 +225,7 @@ const Data_AI_github_source_clone = [
       id: 401,
       title: "me_2023-0805-react-redux 2023 new",
       skills: ["fa-react"],
-      explain: "",
+      explain: "simple redux example",
       imgSrc: "",
       github: "https://github.com/IG-Kim2511/me_2023-0805-react-redux",
       visit:"",  
