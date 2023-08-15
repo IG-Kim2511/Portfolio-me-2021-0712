@@ -214,6 +214,15 @@ const Data_AI_github_source_clone = [
   const Data_React_ai = [
     {
       id: 401,
+      title: "me_2023-0812-cart_page-recoil",
+      skills: ["fa-react"],
+      explain: "recoil, cart page",
+      imgSrc: "./img/projects/clone-react-me_2023-0812-cart_page-recoil.jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0812-cart_page-recoil",
+      visit:"https://ig-kim2511.github.io/me_2023-0812-cart_page-recoil-build/",  
+    },
+    {
+      id: 401,
       title: "me_2023-0805-react-redux 2023 new",
       skills: ["fa-react"],
       explain: "",
