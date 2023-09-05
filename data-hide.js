@@ -214,6 +214,15 @@ const Data_AI_github_source_clone = [
   const Data_React_ai = [
     {
       id: 401,
+      title: "me_2023-0902-Responsive Navbar-react, styled components-props, transform, transition-2020",
+      skills: ["fa-react"],
+      explain: "Responsive Navbar-react, styled components-props, transform, transition-2020",
+      imgSrc: "./img/projects/me_2023-0902-Responsive-Navbar-react-styled-components-props-transform-transition-2020.jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0902-Responsive-Navbar-react-styled-components-props-transform-transition-2020",
+      visit:"https://github.com/IG-Kim2511/me_2023-0902-Responsive-Navbar-react-styled-components-props-transform-transition-2020",  
+    },
+    {
+      id: 401,
       title: "me_2023-0812-cart_page-recoil",
       skills: ["fa-react"],
       explain: "recoil, cart page",
