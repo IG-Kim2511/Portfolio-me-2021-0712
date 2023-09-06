@@ -23,44 +23,18 @@ const Data_js = [
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
       },
-      // {
-      //   id: 205,
-      //   type:"js-web",
-      //   title: "node,mongo,CRUD-miniProject",
-    
-      //   skills:  ["fa-node","fa-js"],
-      //   explain: "simple CRUD note app, Node.js, mongoDB, javascript",
-      //   imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
-      //   github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-      //   visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-      //   // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
-      // },
       {
         id: 401,
-        title: "ecommerce_redux_fakestore_api",
-        skills: ["fa-react","fa-css3"],
-        explain: "redux, fakestore_api ",
-        imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
-        github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
-        visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
+        title: "simple ecommerce site",
+        skills: ["fa-react"],
+        explain: "redux, styled components, responsive navbar, fetch data api",
+        imgSrc: "./img/projects/me_2023-0830-ecommerce-redux-styled_components-responsive-react.jpg",
+        github: "https://github.com/IG-Kim2511/me_2023-0830-ecommerce-redux-styled_components-responsive-react",
+        visit:"https://ig-kim2511.github.io/me_2023-0830-ecommerce-redux-styled_components-responsive-react-build/",  
       },
+
   ];
   
-
-/* 
-const Data_react = [
-  {
-    id: 401,
-    title: "ecommerce_redux_fakestore_api",
-    skills: ["fa-react","fa-css3"],
-    explain: "redux, fakestore_api ",
-    imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
-    visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
-  },
-];
-
- */
 
 /* 🍀data sheets */
   
@@ -138,6 +112,53 @@ const Data_sheet_js_web = [
 
 ];
 
+const Data_sheet_react = [
+  {
+    id: 401,
+    title: "simple ecommerce site",
+    skills: ["fa-react"],
+    explain: "redux, styled components, responsive navbar, fetch data api",
+    imgSrc: "./img/projects/me_2023-0830-ecommerce-redux-styled_components-responsive-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2023-0830-ecommerce-redux-styled_components-responsive-react",
+    visit:"https://ig-kim2511.github.io/me_2023-0830-ecommerce-redux-styled_components-responsive-react-build/",  
+  },
+  {
+    id: 401,
+    title: "search_filter",
+    skills: ["fa-react"],
+    explain: "fetch data api, filter, includes, some ",
+    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
+    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
+  },
+
+
+  {
+    id: 401,
+    title: "css design simple website (the_road)",
+    skills: ["fa-react","fa-css3"],
+    explain: "css design simple website",
+    imgSrc: "./img/projects/me_2023-0802-the_road-react-build.jpg",
+    github: "https://github.com/IG-Kim2511/me_2023-0802-the_road-react-build",
+    visit: "https://ig-kim2511.github.io/me_2023-0802-the_road-react-build/",  
+  },
+
+];
+
+const Data_node = [
+  {
+    id: 205,
+    type:"js-web",
+    title: "node,mongo,CRUD-miniProject",
+
+    skills:  ["fa-node","fa-js"],
+    explain: "simple CRUD note app, Node.js, mongoDB, javascript",
+    imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
+    github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+    visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
+    // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
+  },
+];
 
 /* 
 // JS app 버튼 삭제
@@ -204,60 +225,5 @@ const Data_sheet_js_app = [
  */
 
 
-const Data_node = [
-  {
-    id: 205,
-    type:"js-web",
-    title: "node,mongo,CRUD-miniProject",
-
-    skills:  ["fa-node","fa-js"],
-    explain: "simple CRUD note app, Node.js, mongoDB, javascript",
-    imgSrc: "./img/projects/me_2022-0929-ig_node_mongo_miniProject.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-    visit:"https://github.com/IG-Kim2511/me_2022-0929-ig_node_mongo_miniProject",
-    // visit:"https://ig-crud-miniproject-0929.ue.r.appspot.com/list-reverse_c34",
-  },
-];
 
 
-const Data_sheet_react = [
-  // {
-  //   id: 400,
-  //   title: "portfolio",    
-  //   skills: ["fa-react","fa-sass"],
-  //   explain: "SASS, basic skills, Vanilla javascript",
-  //   imgSrc: "./img/projects/me-portfolio_with_React,SCSS.jpg",
-  //   github: "https://github.com/IG-Kim2511/me_2021-0301_portfolio-react",
-  //   visit:"https://ig-kim2511.github.io/me_2021-0301_portfolio-react_build/",  
-  // },
-
-  {
-    id: 401,
-    title: "search_filter",
-    skills: ["fa-react"],
-    explain: "fetch data api, filter, includes, some ",
-    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
-  },
-
-  {
-    id: 401,
-    title: "ecommerce_redux_fakestore_api",
-    skills: ["fa-react","fa-css3"],
-    explain: "redux, fakestore_api ",
-    imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
-    visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
-  },
-  {
-    id: 401,
-    title: "css design simple website (the_road)",
-    skills: ["fa-react","fa-css3"],
-    explain: "css design simple website",
-    imgSrc: "./img/projects/me_2023-0802-the_road-react-build.jpg",
-    github: "https://github.com/IG-Kim2511/me_2023-0802-the_road-react-build",
-    visit: "https://ig-kim2511.github.io/me_2023-0802-the_road-react-build/",  
-  },
-
-];
