@@ -109,6 +109,17 @@ button {
   outline: none;
 }
 
+.invisible-button {
+  background: none; /* Remove background color */
+  border: none; /* Remove border */
+  color: transparent; /* Make text color transparent */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  outline: none; /* Remove outline when focused */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  font-size: inherit; /* Inherit font size */
+}
+
 .mybtn{
   border: 1px solid var(--color-black);
   border-radius: var(--size-border-radius4px);

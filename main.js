@@ -478,15 +478,22 @@ React_aiBtn.addEventListener('click',()=>{
 
 //🍀 js0220 hide. clone project
 
-const navWorkSheets = document.querySelector('.nav-workSheets');
+// const navWorkSheets = document.querySelector('.nav-workSheets');
 
-let n = 0;    /* 🍉js 50 */
-navWorkSheets.addEventListener("click", function () {
-  n++;    
+// let n = 0;    /* 🍉js 50 */
+// navWorkSheets.addEventListener("click", function () {
+//   n++;    
  
-  if (n > 4) {
-    js_aiBtn.classList.remove('hideClone'); 
-    React_aiBtn.classList.remove('hideClone'); 
-    smallProjectsReactBtn.classList.remove('hideClone'); 
-}
+//   if (n > 4) {
+//     js_aiBtn.classList.remove('hideClone'); 
+//     React_aiBtn.classList.remove('hideClone'); 
+// }
+// });
+
+const invisibleBtn = document.querySelector('.invisible-button');
+
+invisibleBtn.addEventListener('click',()=>{
+  js_aiBtn.classList.toggle('hideClone'); 
+  React_aiBtn.classList.toggle('hideClone'); 
+  
 });
