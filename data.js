@@ -115,7 +115,7 @@ const Data_sheet_js_web = [
 const Data_sheet_react = [
   {
     id: 401,
-    title: "simple ecommerce site",
+    title: "simple ecommerce site with redu ",
     skills: ["fa-react"],
     explain: "redux, styled components, responsive navbar, fetch data api",
     imgSrc: "./img/projects/me_2023-0830-ecommerce-redux-styled_components-responsive-react.jpg",
