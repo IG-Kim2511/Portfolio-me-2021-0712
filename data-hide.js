@@ -214,6 +214,16 @@ const Data_AI_github_source_clone = [
   const Data_React_ai = [
     {
       id: 401,
+      title: "me_2023-0822-context_api-basic_frame",
+      skills: ["fa-react"],
+      explain: "",
+      imgSrc: "",
+      github: "https://github.com/IG-Kim2511/me_2023-0822-context_api-basic_frame",
+      visit:"",  
+    },
+
+    {
+      id: 401,
       title: "me_2023-0902-Responsive Navbar-react, styled components-props, transform, transition-2020",
       skills: ["fa-react"],
       explain: "Responsive Navbar-react, styled components-props, transform, transition-2020",
