@@ -1,16 +1,5 @@
 
 const Data_sheet_small_react =[
-
-
-  {
-    id: 401,
-    title: "ecommerce_redux_fakestore_api",
-    skills: ["fa-react","fa-css3"],
-    explain: "redux, fakestore_api ",
-    imgSrc: "./img/projects/react-me_2022-0309-ecommerce_redux_fakestore_api-react-.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
-    visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
-  },
     {
       id: 704,
       type:" ",
