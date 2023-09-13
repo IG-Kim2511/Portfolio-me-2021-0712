@@ -25,14 +25,13 @@ const Data_js = [
       },
       {
         id: 401,
-        title: "simple ecommerce site with redux",
+        title: "simple shoping cart with context_api ",
         skills: ["fa-react"],
-        explain: "redux, styled components, responsive navbar, fetch data api",
-        imgSrc: "./img/projects/me_2023-0830-ecommerce-redux-styled_components-responsive-react.jpg",
-        github: "https://github.com/IG-Kim2511/me_2023-0830-ecommerce-redux-styled_components-responsive-react",
-        visit:"https://ig-kim2511.github.io/me_2023-0830-ecommerce-redux-styled_components-responsive-react-build/",  
+        explain: "context_api",
+        imgSrc: "./img/projects/me_2023-0902-shoping_cart-context_api-react.jpg",
+        github: "https://github.com/IG-Kim2511/me_2023-0902-shoping_cart-context_api-react",
+        visit:"https://ig-kim2511.github.io/me_2023-0902-shoping_cart-context_api-react-build/",  
       },
-
   ];
   
 
@@ -113,6 +112,15 @@ const Data_sheet_js_web = [
 ];
 
 const Data_sheet_react = [
+  {
+    id: 401,
+    title: "simple shoping cart with context_api ",
+    skills: ["fa-react"],
+    explain: "context_api",
+    imgSrc: "./img/projects/me_2023-0902-shoping_cart-context_api-react.jpg",
+    github: "https://github.com/IG-Kim2511/me_2023-0902-shoping_cart-context_api-react",
+    visit:"https://ig-kim2511.github.io/me_2023-0902-shoping_cart-context_api-react-build/",  
+  },
   {
     id: 401,
     title: "simple ecommerce site with redux ",

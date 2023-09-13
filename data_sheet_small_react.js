@@ -1,15 +1,7 @@
 
 const Data_sheet_small_react =[
 
-  {
-    id: 401,
-    title: "simple Cart page with context_api",
-    skills: ["fa-react","fa-css3"],
-    explain: "context_api, fakestore_api ",
-    imgSrc: "./img/projects/small,clone/me_2023-0907-cart_page-context_api-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2023-0907-cart_page-context_api-react",
-    visit:"https://ig-kim2511.github.io/me_2023-0907-cart_page-context_api-react-build/",  
-  },
+
   {
     id: 401,
     title: "ecommerce_redux_fakestore_api",

@@ -508,10 +508,18 @@ padding-top: 0;
   background-color: var(--color-light-write);
 
   position: sticky;
-  top: 5rem;
+  top: 5.5rem;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
+#workSheets .btn-container button{  
+  font-size: var(--font-regular);
+  margin: 1px;
+  padding: 2px 3px;
+}
 
 /* #workSheets .projects-container{
   display: flex;

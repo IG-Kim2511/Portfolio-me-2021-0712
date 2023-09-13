@@ -214,6 +214,15 @@ const Data_AI_github_source_clone = [
   const Data_React_ai = [
     {
       id: 401,
+      title: "AI context_api - Cart page ",
+      skills: ["fa-react","fa-css3"],
+      explain: "context_api, fakestore_api ",
+      imgSrc: "./img/projects/small,clone/me_2023-0907-cart_page-context_api-react.jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0907-cart_page-context_api-react",
+      visit:"https://ig-kim2511.github.io/me_2023-0907-cart_page-context_api-react-build/",  
+    },
+    {
+      id: 401,
       title: "me_2023-0822-context_api-basic_frame",
       skills: ["fa-react"],
       explain: "",
