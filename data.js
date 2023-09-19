@@ -123,12 +123,12 @@ const Data_sheet_react = [
   },
   {
     id: 401,
-    title: "simple ecommerce site with redux ",
+    title: "simple shoping cart with redux ",
     skills: ["fa-react"],
     explain: "redux, styled components, responsive navbar, fetch data api",
     imgSrc: "./img/projects/me_2023-0830-ecommerce-redux-styled_components-responsive-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2023-0830-ecommerce-redux-styled_components-responsive-react",
-    visit:"https://ig-kim2511.github.io/me_2023-0830-ecommerce-redux-styled_components-responsive-react-build/",  
+    github: "https://github.com/IG-Kim2511/me_2023-0830-shoping_cart-redux-styled_components-responsive-react",
+    visit:"https://ig-kim2511.github.io/me_2023-0830-shoping_cart-redux-styled_components-responsive-react-build/",  
   },
   
   {
