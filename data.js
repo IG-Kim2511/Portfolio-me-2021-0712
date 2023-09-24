@@ -112,15 +112,15 @@ const Data_sheet_js_web = [
 ];
 
 const Data_sheet_react = [
-  {
-    id: 401,
-    title: "0914-ecommerce-sass-redux_react",
-    skills: ["fa-react","fa-sass"],
-    explain: "I'm working on now. redux, filter page, SASS, responsive design",
-    imgSrc: "./img/projects/me_2023-0914-ecommerce-sass-redux_react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2023-0914-ecommerce-sass-redux_react",
-    visit:"https://ig-kim2511.github.io/me_2023-0914-ecommerce-sass-redux_react-build/",  
-  },
+  // {
+  //   id: 401,
+  //   title: "0914-ecommerce-sass-redux_react",
+  //   skills: ["fa-react","fa-sass"],
+  //   explain: "I'm working on now. redux, filter page, SASS, responsive design",
+  //   imgSrc: "./img/projects/me_2023-0914-ecommerce-sass-redux_react.jpg",
+  //   github: "https://github.com/IG-Kim2511/me_2023-0914-ecommerce-sass-redux_react",
+  //   visit:"https://ig-kim2511.github.io/me_2023-0914-ecommerce-sass-redux_react-build/",  
+  // },
   {
     id: 401,
     title: "simple shoping cart with context_api ",
