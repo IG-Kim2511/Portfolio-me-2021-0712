@@ -1,7 +1,25 @@
 /* 🍀 data detail - main projects */
 
 const Data_js = [
-    {
+      {
+        id: 401,
+        title: "0914-ecommerce-sass-redux_react",
+        skills: ["fa-react","fa-sass"],
+        explain: "I'm working on now. redux, filter page, SASS, responsive design",
+        imgSrc: "./img/projects/me_2023-0914-ecommerce-sass-redux_react.jpg",
+        github: "https://github.com/IG-Kim2511/me_2023-0914-ecommerce-sass-redux_react",
+        visit:"https://ig-kim2511.github.io/me_2023-0914-ecommerce-sass-redux_react-build/",  
+      },
+      {
+        id: 401,
+        title: "simple shoping cart with context_api ",
+        skills: ["fa-react"],
+        explain: "context_api",
+        imgSrc: "./img/projects/me_2023-0902-shoping_cart-context_api-react.jpg",
+        github: "https://github.com/IG-Kim2511/me_2023-0902-shoping_cart-context_api-react",
+        visit:"https://ig-kim2511.github.io/me_2023-0902-shoping_cart-context_api-react-build/",  
+      },
+      {
         id: 0,
         title: "Ecommerce-multiPage-SASS-Swiper-Toast",
         skills: ["fa-js","fa-sass"],
@@ -23,15 +41,7 @@ const Data_js = [
         github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
         visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
       },
-      {
-        id: 401,
-        title: "simple shoping cart with context_api ",
-        skills: ["fa-react"],
-        explain: "context_api",
-        imgSrc: "./img/projects/me_2023-0902-shoping_cart-context_api-react.jpg",
-        github: "https://github.com/IG-Kim2511/me_2023-0902-shoping_cart-context_api-react",
-        visit:"https://ig-kim2511.github.io/me_2023-0902-shoping_cart-context_api-react-build/",  
-      },
+
   ];
   
 
