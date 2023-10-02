@@ -159,27 +159,6 @@ const Data_sheet_react = [
     github: "https://github.com/IG-Kim2511/me_2022-0309-ecommerce_redux_fakestore_api-react-",
     visit:"https://ig-kim2511.github.io/me_2022-0309-ecommerce_redux_fakestore_api-react-build/",  
   },
-  {
-    id: 401,
-    title: "search_filter",
-    skills: ["fa-react"],
-    explain: "fetch data api, filter, includes, some ",
-    imgSrc: "./img/projects/react-me_2022-0223-search_filter-react.jpg",
-    github: "https://github.com/IG-Kim2511/me_2022-0223-search_filter-react",
-    visit:"https://ig-kim2511.github.io/me_2022-0223-search_filter-react-build/",  
-  },
-
-
-  {
-    id: 401,
-    title: "css design simple website (the_road)",
-    skills: ["fa-react","fa-css3"],
-    explain: "css design simple website",
-    imgSrc: "./img/projects/me_2023-0802-the_road-react-build.jpg",
-    github: "https://github.com/IG-Kim2511/me_2023-0802-the_road-react-build",
-    visit: "https://ig-kim2511.github.io/me_2023-0802-the_road-react-build/",  
-  },
-
 ];
 
 const Data_node = [
