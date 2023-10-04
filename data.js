@@ -1,4 +1,4 @@
-/* 🍀 data detail - main projects */
+/* 🍀 data detail - main Best projects */
 
 const Data_js = [
       {
@@ -30,18 +30,6 @@ const Data_js = [
       
         //🍖js13. numberOfUnits:1
       },
-      {
-        id: 205,
-        type:"js-web",
-        title: "ecommerce_shoes_slideshow",
-    
-        skills: ["fa-js","fa-css3"],
-        explain: "adding product to cart, calculate price, localstorage, rendering products from data, slideshow, selecting featured images, Vanilla javascript",
-        imgSrc: "./img/projects/me_2021-1230-ecommerce_shoes_nike_shop.jpg",
-        github: "https://github.com/IG-Kim2511/me_2021-1230-Ecommerce_Shoes-Slideshow-JS",
-        visit:"https://ig-kim2511.github.io/me_2021-1230-Ecommerce_Shoes-Slideshow-JS/",
-      },
-
   ];
   
 
