@@ -214,6 +214,15 @@ const Data_AI_github_source_clone = [
   const Data_React_ai = [
     {
       id: 401,
+      title: "me_2023-0927-filtering_and_search-props-react",
+      skills: ["fa-react","fa-css3"],
+      explain: "filtering_and_search-props-react ",
+      imgSrc: "./img/projects/small,clone/me_2023-0927-filtering_and_search-props-react.jpg",
+      github: "https://github.com/IG-Kim2511/me_2023-0927-filtering_and_search-props-react",
+      visit:"https://ig-kim2511.github.io/me_2023-0927-filtering_and_search-props-react-build/",  
+    },
+    {
+      id: 401,
       title: "AI context_api - Cart page ",
       skills: ["fa-react","fa-css3"],
       explain: "context_api, fakestore_api ",
