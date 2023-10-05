@@ -11,15 +11,6 @@ const Data_js = [
         visit:"https://ig-kim2511.github.io/me_2023-0914-ecommerce-sass-redux_react-build/",  
       },
       {
-        id: 401,
-        title: "simple shoping cart with context_api ",
-        skills: ["fa-react"],
-        explain: "context_api",
-        imgSrc: "./img/projects/me_2023-0902-shoping_cart-context_api-react.jpg",
-        github: "https://github.com/IG-Kim2511/me_2023-0902-shoping_cart-context_api-react",
-        visit:"https://ig-kim2511.github.io/me_2023-0902-shoping_cart-context_api-react-build/",  
-      },
-      {
         id: 0,
         title: "Ecommerce-multiPage-SASS-Swiper-Toast",
         skills: ["fa-js","fa-sass"],
